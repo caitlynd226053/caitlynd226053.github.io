@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
+<style>
+    *{
+
+    }
+</style>
 <body>
     <h1>Contact Me</h1>   
-    <form action="#" method="post">
-        <label for="myname">Name: </label><br/>
-        <input type="text" name="myname" id="myname" required/><br/><br/>
+    <form action="#" method="post" style="text-align: center;">
+        <div style="text-align: left; margin-left: 30%; margin-right: 30%;">
+            <label for="myname">Name: </label><br/>
+            <input type="text" name="myname" id="myname" required/><br/><br/>
         
-        <label for="subject">Subject: </label><br/>
-        <input type="text" name="subject" id="subject" 
-            placeholder="CS 101" required/><br/><br/>
+            <label for="subject">Subject: </label><br/>
+            <input type="text" name="subject" id="subject" 
+                placeholder="CS 101" required/><br/><br/>
 
-        <textarea name="tbody" id="tbody" required/><br/>
-            Enter message...
-        </textarea><br/>
+         <textarea name="tbody" id="tbody" required/>
+    Enter message...
+            </textarea><br/>
 
-        <label for="attach">Attachments: </label><br/>
-        <input type="file" name="attach" id="attach"/><br/>
+            <label for="attach">Attachments: </label><br/>
+            <input type="file" name="attach" id="attach"/><br/><br/>
 
-        <input type="submit" value="Submit" id="sbutton"/><br/>
-
+         <input type="submit" value="Submit" id="sbutton"/><br/>
+    </div>
     </form>
 </body>
 </html>
