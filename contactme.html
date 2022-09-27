@@ -25,8 +25,9 @@
         
     }
     input{width:250px;}
-    textarea{width:250px;}
+    textarea{width:250px; max-width: 250px;}
     form{ background-color:rgb(236, 19, 77)}
+    input,textarea{max-width: 250px;}
     #fdiv{
         background-color:#ccc;
         border: radius 2px;
@@ -35,22 +36,27 @@
         padding:30px 15px;
         
     }
+    .rqd{
+        color:red;
+        font-weight: normal;
+    }
+    
 </style>
 <body>
     <h1>Contact Me</h1>   
     <form action="#" method="post" style="text-align: center;">
-        <fdiv style="text-align: left; margin-left: 30%; margin-right: 30%;">
-            <label for="myname">Name: </label><br/>
+        <fdiv style="text-align: center; margin-left: 0%; margin-right: 0%;">
+            <label for="myname">Name: <span class="rqd">*</span> </label><br/>
             <input type="text" name="myname" id="myname" required/><br/><br/>
         
-            <label for="subject">Subject: </label><br/>
+            <label for="subject">Subject:<span class="rqd">*</span> </label><br/>
             <input type="text" name="subject" id="subject" 
                 placeholder="CS 101" required/><br/><br/>
 
          <textarea name="tbody" id="tbody" placeholder="Enter message... "required/>
         Enter message...</textarea><br/><br
 
-            <label for="attach">Attachments: </for=><br/>
+            <label for="attach">Attachments:<span class="rqd">*</span> </for=><br/>
             <input type="file" name="attach" id="attach"/><br/><br/>
 
          <input type="submit" value="Submit" id="sbutton"/><br/>
