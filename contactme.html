@@ -27,7 +27,10 @@
     input{width:250px;}
     textarea{width:250px; max-width: 250px;}
     form{ background-color:rgb(236, 19, 77)}
-    input,textarea{max-width: 250px;}
+    input,textarea{
+        max-width: 250px;
+        background-color: 
+    }
     #fdiv{
         background-color:#ccc;
         border: radius 2px;
@@ -40,7 +43,9 @@
         color:red;
         font-weight: normal;
     }
-    
+    input[type="radio"]{
+        background-color: rgb(236, 19, 77);
+    }
 </style>
 <body>
     <h1>Contact Me</h1>   
@@ -57,8 +62,8 @@
          <label for="attach">Attachments:<span class="rqd">*</span> </for=><br/>
             <input type="file" name="attach" id="attach"/><br/><br/>
 
-            <label for="priority">Priority:</label><br/>
-            <select name="priority">Priority:<span class="rqd"></span> </select><br/>
+            <label for="priority">Priority: <span class="rqd">*</span></label><br/>
+            <select name="priority">
                 <option disabled selected value>--</option>
                 <option value="Low">Low</option>
                 <option value="Medium">Medium</option>
