@@ -43,27 +43,33 @@
         color:red;
         font-weight: normal;
     }
-    #flwupy, #flwupn{background-color: rgb(236, 19, 77); margin-right:-100px; margin-left:-125px;}
+    #flwupy, #flwupn{background-color: rgb(236, 19, 77) !important; margin-right:-100px; margin-left:-125px;}
     .flwlbl{font-weight: normal; background-color:rgb(236, 19, 77)!important;}
     
-    
+    label{ 
+        background-color: rgb(236, 19, 77);
+        font-weight: bold; 
+        }
+    .lbl{
+        background-color:rgb(250, 236, 164);
+    }
 </style>
 <body>
     <h1>Contact Me</h1>   
     <form action="#" method="post" style="text-align: center;" onsubmit="alert('Not implemented yet');">
         <br style="text-align: center; margin-left: 0%; margin-right: 0%;">
-            <br><label for="myname">Name: <span class="rqd">*</span> </label><br/>
+            <br><label for="myname">Name: <span class="lbl">*</span> </label><br/>
             <input type="text" name="myname" id="myname" required/><br/><br/>
         
-            <label for="subject">Subject:<span class="rqd">*</span> </label><br/>
+            <label for="subject">Subject:<span class="lbl">*</span> </label><br/>
             <input type="text" name="subject" id="subject" 
                 placeholder="CS 101" required/><br/><br/>
 
          <textarea name="tbody" id="tbody" placeholder="Enter message... "required></textarea><br><br>
-         <label for="attach">Attachments:<span class="rqd">*</span> </for=><br/>
+         <label for="attach">Attachments:<span class="lbl">*</span> </for=><br/>
             <input type="file" name="attach" id="attach"/><br/><br/>
 
-            <label for="priority">Priority: <span class="rqd">*</span></label><br/>
+            <label for="priority">Priority: <span class="lbl">*</span></label><br/>
             <select name="priority">
                 <option disabled selected value>--</option>
                 <option value="Low">Low</option>
