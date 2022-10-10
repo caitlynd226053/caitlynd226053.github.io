@@ -1,59 +1,61 @@
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJISYoU0mP97-dfKBUWvIewCV2kxlUu4QmqexE6V8Long8S_QGHZ78TUx8w5sllcEvU6M:https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/sv164757-image-kwyngq6p.jpg%3Fw%3D800%26dpr%3D1%26fit%3Ddefault%26crop%3Ddefault%26q%3D65%26vib%3D3%26con%3D3%26usm%3D15%26bg%3DF4F4F3%26ixlib%3Djs-2.2.1%26s%3D1153be070dbbe8c6f970c38441525061&usqp=CAU);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: lightblue;
-    color: navy;
-}
-h1{
-  color: navy;  
-  text-align: center;
-}
-#Nicknames{
-    text-align: center;
-}
-table{
-    border: 1px solid black;
-    text-align: center;
-    border-collapse: collapse;
-    margin: auto;
 
-}
-td,th,tr{
-    border: 1px solid black;
-    border-radius: 0.5cm;
-    border-collapse: collapse;
-}
-th{
-    background-color: #1EFFE9;
-
-}
-td{
-    background-color: #A3FEFF;
-}
-#TableCaption{
-    caption-side: top;
-}
-h2{
-    text-align: center;
-}
-#Ref{
-    text-align: bottom;
-}
-#SMS,#Witbank,#Violin,#Cat,#run,#Drum,#Paint,#Dog{
-    height: 150px;
-    width: 200px;
-}
-#MusicMan{
-    height: 150px;
-    width: 100px;
-}
-#Velma{
-    height: 150px;
-    width:100px;
-}
-{
-    height:150px;
-    width: 200px;
-}
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJISYoU0mP97-dfKBUWvIewCV2kxlUu4QmqexE6V8Long8S_QGHZ78TUx8w5sllcEvU6M:https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/sv164757-image-kwyngq6p.jpg%3Fw%3D800%26dpr%3D1%26fit%3Ddefault%26crop%3Ddefault%26q%3D65%26vib%3D3%26con%3D3%26usm%3D15%26bg%3DF4F4F3%26ixlib%3Djs-2.2.1%26s%3D1153be070dbbe8c6f970c38441525061&usqp=CAU);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: lightblue;
+        color: navy;
+    }
+    h1{
+      color: navy;  
+      text-align: center;
+    }
+    #Nicknames{
+        text-align: center;
+    }
+    table{
+        border: 1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+        margin: auto;
+    
+    }
+    td,th,tr{
+        border: 1px solid black;
+        border-radius: 0.5cm;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: #1EFFE9;
+    
+    }
+    td{
+        background-color: #A3FEFF;
+    }
+    #TableCaption{
+        caption-side: top;
+    }
+    h2{
+        text-align: center;
+    }
+    #Ref{
+        text-align: bottom;
+    }
+    #SMS,#Witbank,#Violin,#Cat,#run,#Drum,#Paint,#Dog{
+        height: 150px;
+        width: 200px;
+    }
+    #MusicMan{
+        height: 150px;
+        width: 100px;
+    }
+    #Velma{
+        height: 150px;
+        width:100px;
+    }
+    {
+        height:150px;
+        width: 200px;
+    }
+    
