@@ -26,6 +26,7 @@ nav li{
 	padding: 0.4em;
 	display: inline;
 }
+/*Style to stack list items vertically if screen is<=500 pixels wide*/
 @media screen and (max-width: 500px){
 	nav li{
 		display: block;
