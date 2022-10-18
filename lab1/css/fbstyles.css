@@ -25,6 +25,10 @@ nav li{
 	margin:0.3em;
 	padding: 0.4em;
 }
+nav li a{
+	color:#fff;
+	text-decoration: none;
+}
 /* Style for the container centers the page and specifies the width */
 #container {
 	width: 100%;
