@@ -22,14 +22,19 @@ nav li{
 	background-color: #FF6600;
 	border-radius: 1em;
 	list-style-type: none;
-	margin:0.3em;
-	padding: 0.4em;
+	margin:0.6em;
+	padding: 0.5em;
 	display: inline;
+	font-size: 20px;
 }
+
 /*Style to stack list items vertically if screen is<=500 pixels wide*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	nav li{
 		display: block;
+		margin: 0.3em;
+		padding:0.4em;
+		font-size:16px;
 	}
 }
 nav li a{
