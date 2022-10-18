@@ -29,6 +29,10 @@ nav li a{
 	color:#fff;
 	text-decoration: none;
 }
+/*Style displays the mobile class*/
+.mobile{
+	display: inline;
+}
 /* Style for the container centers the page and specifies the width */
 #container {
 	width: 100%;
