@@ -6,7 +6,17 @@ body {
 }
 
 /* Styles for Mobile Layout */
-
+/* Style to Create a fluid image*/
+img{
+	max-width:100%;
+}
+/*Style specifies padding and marigins for unordered list*/
+nav ul{
+	padding:0; 
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	
+}
 /* Style for the container centers the page and specifies the width */
 #container {
 	width: 100%;
