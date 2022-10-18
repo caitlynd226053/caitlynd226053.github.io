@@ -9,6 +9,7 @@ body {
 /* Style to Create a fluid image*/
 img{
 	max-width:100%;
+	max-height: 300px;
 }
 /*Style specifies padding and marigins for unordered list*/
 nav ul{
