@@ -16,7 +16,6 @@ nav ul{
 	padding:0; 
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-
 }
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation*/
 nav li{
@@ -25,6 +24,12 @@ nav li{
 	list-style-type: none;
 	margin:0.3em;
 	padding: 0.4em;
+	display: inline;
+}
+@media screen and (max-width: 500px){
+	nav li{
+		display: block;
+	}
 }
 nav li a{
 	color:#fff;
