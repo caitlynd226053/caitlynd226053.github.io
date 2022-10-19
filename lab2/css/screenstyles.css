@@ -26,8 +26,17 @@ nav li a{
 	color: #fff;
 	text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+	nav li{
+		display: block;
+		margin:0.3em;
+		padding:0.4em;
+		font-size:16px;
+	}
+}
 .mobile{
 	display: inline;
+	width:100%;
 }
 /* Style for the container centers the page and specifies the width */
 #container {
