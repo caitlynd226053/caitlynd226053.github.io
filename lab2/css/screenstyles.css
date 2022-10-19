@@ -13,13 +13,14 @@ img{
 nav ul{
 	padding:0;
 	margin-top: 0.5em;
-	margin-bottom:0.5em;
+	margin-bottom:0.7em;
 }
 nav li{
 	background-color: #000066;
 	list-style-type: none;
 	margin:0.4em;
 	padding:0.5em;
+	display: inline;
 }
 nav li a{
 	color: #fff;
