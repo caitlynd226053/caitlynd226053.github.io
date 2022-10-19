@@ -15,6 +15,12 @@ nav ul{
 	margin-top: 0.5em;
 	margin-bottom:0.5em;
 }
+nav li{
+	background-color: #000066;
+	list-style-type: none;
+	margin:0.4em;
+	padding:0.5em;
+}
 /* Style for the container centers the page and specifies the width */
 #container {
 	width: 800px;
