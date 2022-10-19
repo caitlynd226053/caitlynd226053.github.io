@@ -25,6 +25,9 @@ nav li a{
 	color: #fff;
 	text-decoration: none;
 }
+.mobile{
+	display: inline;
+}
 /* Style for the container centers the page and specifies the width */
 #container {
 	width: 800px;
