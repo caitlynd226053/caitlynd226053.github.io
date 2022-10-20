@@ -21,12 +21,10 @@
 		display: none;
 	}
 	.desktop{
-		display: inline;
+		display: none;
 		
 	}
-	style{
-		display: none;
-	}
+	
 }
 @media screen and ( min-width: 769px){
 	#container{
@@ -59,7 +57,7 @@
 		box-shadow: 1em 1em 1em #331400;
 		margin-top: 1em;
 	}
-	style{
+	body{
 		background: linear-gradient(#FFFFFF,#3366CC);
 	}
 }
