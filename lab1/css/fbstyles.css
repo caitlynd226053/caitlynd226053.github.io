@@ -1,6 +1,36 @@
 /* Style sheet created by: Caitlyn Dickman, 10/18/2022*/
 
 /* Style for body specifies a background color */
+@media screen and (min-width:481px){
+	img	{
+		width:25%;
+		float:left;
+	}
+	header p {
+		margin-bottom: 4em;
+		padding-top: 1.53em;
+	}
+	nav li {
+		display: inline;
+		float:left;
+		margin-left:1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right:0;
+		width:23%;
+	}
+	main {
+		clear: left;
+		margin-top: 12em;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+}
+
 body {
 	background-color: #FFFFFF;
 }
