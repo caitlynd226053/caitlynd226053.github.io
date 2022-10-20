@@ -30,6 +30,46 @@
 		display: inline;
 	}
 }
+@media screen and (min-width:769px){
+	#container {
+		width:80%;
+	}
+	nav {
+		margin-top: -5em;
+	}
+	nav ul {
+		margin: 0;
+		padding-left: 0.5%;
+		padding-right: 0.50%;
+	}
+	nav li {
+		background-color: #FFFFFF;
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width:18%;
+	}
+	nav li a {
+		color: #FF6600;
+		display: inline-block;
+		padding: 0.7em;
+		font-size:1.25em;
+	}
+	nav li a:link {
+		color: #FF6600;
+	}
+	nav li a:hover {
+		color:#4C1F00;
+		font-style: italic;
+	}
+	main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+	}
+}
 
 body {
 	background-color: #FFFFFF;
