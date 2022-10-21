@@ -16,9 +16,10 @@
 	}
 	main{
 		clear: left;
-	}
+	}  
 	.mobile{
 		display: none;
+		width:100%;
 	}
 	.desktop{
 		display: inline;
