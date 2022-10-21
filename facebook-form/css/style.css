@@ -1,3 +1,25 @@
 *{
     font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
+.signup{
+    background-color:#659d50;
+    font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    font: bold;
+    color: #FFFF;
+    border-radius: 5px;
+    border-style:outset;
+    border-color: grey;
+    border-width: 2px;
+    font-size: 20px;
+    min-width: 200px;
+    min-height:40px;
+}
+.bday{
+    color:blue;
+    font-size: 15px;
+    display: inline;
+}
+.radio{
+    font-family:"Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    font-size:15px;
+}
