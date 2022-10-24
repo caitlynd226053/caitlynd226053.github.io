@@ -26,6 +26,6 @@
 body{
     background-color: #edf0f5;
 }
-p{
-    
+#month,#day, #year{
+    border-color: gray;
 }
