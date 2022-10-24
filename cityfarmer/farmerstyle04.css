@@ -1,5 +1,9 @@
 body{
     color:#000000;
-    background: color #B81D1EB;
+    background-color: #B8D1EB;
     font-family: "Times New Roman", serif;
+}
+#outerwrapper { 
+    width:70%;
+    margin: 0 auto 0 auto;
 }
