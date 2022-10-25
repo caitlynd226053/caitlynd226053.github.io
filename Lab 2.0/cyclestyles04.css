@@ -17,3 +17,6 @@ body{
 nav ul{
     list-style-type: none;
 }
+.boldtext{
+    font-weight: bold;
+}
