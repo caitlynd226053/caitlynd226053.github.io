@@ -32,7 +32,11 @@ body{
 .font{
     font-size:15px;
 }
-#first, #last{
+#email, #reenter{
     width:233px;
+    margin:5px;
+}
+#first,#last{
+    width:100px;
     margin:5px;
 }
