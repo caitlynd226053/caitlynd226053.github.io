@@ -29,6 +29,6 @@ body{
 #month,#day, #year{
     border-color: gray;
 }
-#font{
-    font-size: 25px;
+.font{
+    font-size:15px;
 }
