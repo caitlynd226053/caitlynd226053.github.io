@@ -12,11 +12,12 @@ body{
     margin-right: 2%;
 }
 .floatright{
-
+    float: right;
+    margin-left: 2%;
 }
 nav ul{
     list-style-type: none;
 }
-.boldtext{
+.boldtext,dt{
     font-weight: bold;
 }
