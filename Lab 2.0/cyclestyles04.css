@@ -12,5 +12,8 @@ body{
     margin-right: 2%;
 }
 .floatright{
-    
+
+}
+nav ul{
+    list-style-type: none;
 }
