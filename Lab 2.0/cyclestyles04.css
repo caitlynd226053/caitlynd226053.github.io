@@ -1,4 +1,16 @@
 body{
     font-family: "Calibri", sans-serif;
     background-color: #FF9900;
+    color: black;
+}
+#wrapper{
+    width:80%;
+    margin: center;
+}
+.floatleft{
+    float: left;
+    margin-right: 2%;
+}
+.floatright{
+    
 }
