@@ -43,5 +43,8 @@ body{
 #register{
     margin: 0 auto;
     width: 50%;
-    vertical-align:baseline;
+    vertical-align:fixed;
+    padding: 50px;
+    position: fixed;
+    
 }
