@@ -42,4 +42,6 @@ body{
 }
 #register{
     margin: 0 auto;
+    width: 50%;
+    vertical-align:baseline;
 }
