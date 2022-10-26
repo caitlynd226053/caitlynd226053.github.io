@@ -134,6 +134,7 @@ nav li a:link {
 
 nav li a:hover {
 	color: #9900FF;
+    font-size:1.05em;
 }
 
 nav li a:active {
