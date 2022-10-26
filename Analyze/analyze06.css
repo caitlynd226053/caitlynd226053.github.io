@@ -129,11 +129,11 @@ nav li a {
 
 /* Style rules for pseudo-classes */ 
 nav li a:link {
-	color: #FFFFFF;	
+	color: #FFCCFF;	
 }
 
 nav li a:hover {
-	color: #FFFFFF;
+	color: #9900FF;
 }
 
 nav li a:active {
