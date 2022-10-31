@@ -43,7 +43,7 @@ body{
 #register{
     margin: 0 auto;
     width: 50%;
-    vertical-align:fixed;
+    vertical-align:bottom;
     padding: 100px;
     padding-top:50px;
     padding-bottom: 50px;
