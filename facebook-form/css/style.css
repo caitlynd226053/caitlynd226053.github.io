@@ -44,7 +44,10 @@ body{
     margin: 0 auto;
     width: 50%;
     vertical-align:fixed;
-    padding: 50px;
+    padding: 100px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-right:50px;
     position: fixed;
     
 }
