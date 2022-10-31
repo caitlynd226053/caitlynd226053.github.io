@@ -1,4 +1,4 @@
-/* Style sheet created by: Caitlyn Dickman, 10/18/2022*/
+/* Style sheet created by: Caitlyn Dickman, 10/31/2022*/
 
 /* Style for body specifies a background color */
 @media screen and (min-width:481px){
@@ -161,4 +161,12 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+}
+div p{
+    padding-left: 1em;
+    padding-right:1em;
+}
+section{
+    padding:1%;
+    text-align: center;
 }
