@@ -170,3 +170,9 @@ section{
     padding:1%;
     text-align: center;
 }
+article{
+    border-top: solid 0.2em #FF6600;
+    padding:2%;
+    margin:0.5%;
+    text-align: left;
+}
