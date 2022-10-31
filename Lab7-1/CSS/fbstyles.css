@@ -176,3 +176,11 @@ article{
     margin:0.5%;
     text-align: left;
 }
+aside {
+    text-align:center;
+    color: white;
+    background-color: #FF6600;
+    font-size:1.25em;
+    margin:1em;
+    padding:1em;
+}
