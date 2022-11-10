@@ -36,5 +36,13 @@
     background-size:100%;
     /*Use a CSS transform to back image away from camera
     and scale it to fill the viewport*/
-    transform: translateZ(-1px) scale(1.5);
+    background-attachment: fixed;
+    background-size:cover;
+}
+body, html{
+    overflow:hidden;
+}
+*{
+    margin:0; 
+    padding:0;
 }
