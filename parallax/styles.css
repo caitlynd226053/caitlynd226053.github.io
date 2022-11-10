@@ -24,3 +24,12 @@
 .bg2::after{
     background-image: url("https://placekitten.com/g/800/600")
 }
+
+.parallax::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right:0;
+    left:0;
+}
