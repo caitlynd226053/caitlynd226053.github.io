@@ -21,5 +21,17 @@ footer {
 	text-align: center;
 }
 form{
-    margin-top:5px;
+    margin-top: 5%;
+}
+#username{
+    margin-bottom:5%;
+}
+#password{
+    margin-bottom:5%;
+}
+#dob{
+    margin-bottom:5%;
+}
+#upload{
+    margin-bottom:5%;
 }
