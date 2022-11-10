@@ -13,3 +13,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.static{
+    background: red;
+}
+
+.bg1::after{
+    background-image: url("https://placekitten.com/g/900/700")
+}
+.bg2::after{
+    background-image: url("https://placekitten.com/g/800/600")
+}
