@@ -13,7 +13,7 @@ body {
 }
 
 /* Style for the header element */
-h1 {
+header {
 	font-family: Verdana, Arial, sans-serif;
 	background-color: #FFFFFF;
 	color: #4E9657;
@@ -44,4 +44,7 @@ nav li a {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+h2{
+    color:#4E9657;
 }
