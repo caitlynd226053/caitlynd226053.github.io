@@ -55,6 +55,9 @@ main{
 }
 section{
     background-color:white;
+    color: black;
+    padding:1em;
+    margin-top:1em;
 }
 article{
     color: black;
