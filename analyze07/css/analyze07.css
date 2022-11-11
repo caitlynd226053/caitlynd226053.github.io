@@ -61,5 +61,10 @@ section{
 }
 article{
     color: black;
-    border: 
+    border: 5px;
+    padding:1em;
+    margin-top:1em;
+}
+aside{
+    border-radius: 
 }
