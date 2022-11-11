@@ -19,7 +19,7 @@ header {
 	color: #4E9657;
 	padding: 0.5%;
 	margin-left: 1%;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 /* Style for the nav element */
@@ -67,5 +67,12 @@ article{
     background-color: white;
 }
 aside{
-    border-radius: 
+    border-radius: 15px;
+    background-color: #4E9657;
+    color: white;
+    border:5px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 1em;
+    
 }
