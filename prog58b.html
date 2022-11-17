@@ -7,9 +7,9 @@
     <title>Prog58b</title>
   </head>
 <body>
-    <input type="number" id="root1">
-    <input type="number" id="root2">
-    <input type="number" id="root3"
+    <input type="number" id="A">
+    <input type="number" id="B">
+    <input type="number" id="C"
     <button onclick="doMath();">Run Math Stuff</button>
     <button onclick="reset();">Reset</button>
     <p id="output"></p>
@@ -23,11 +23,12 @@
        }
         
       var A= document.getElementById("root1").value;
-                root1= Number(root1);
+                A= Number(root1);
+      
      var B= document.getElementById("root2").value;
-                root2= Number(root2);
+                B= Number(root2);
       var C = document.getElementById("root3").value;
-                root3=Number(root3);
+                C=Number(root3);
       (root1,root2,root3) = (-b ± √b2-4ac)/2;
         
         
