@@ -31,6 +31,18 @@
            var sqn1 = Math.sqrt(num1);
            var sqn2 = Math.sqrt(num2);
            
+           var p = document.getElementById("output");
+           var out = "";
+           out = out + "Add:" + add + "</br>";
+           out = out + "Subtract:" + sub + "</br>";
+           out = out + "Multiply:" + mul + "</br>";
+           out = out + "Divide:" + div + "</br>";
+           out = out + "Modulus:" + mod + "</br>";
+           out = out + "Pow:" + pow + "</br>";
+           out = out + "sqrt(num1):" +sqn1 + "</br>";
+           out = out + "sqrt(num2):" +sqn2 + "</br>";
+           p.innerHTML = out;
+           
        }
     </script>
 </body>
