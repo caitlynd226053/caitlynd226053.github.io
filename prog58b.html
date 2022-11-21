@@ -15,9 +15,7 @@
     <p id="out"></p>
   
     <script>
-       function reset() {
-            document.getElementById("out").innerHTML="";
-       }
+      
         function calc(){
           var A= document.getElementById("numA").value;
                 A= Number(A);
@@ -28,6 +26,9 @@
 
       var proot = -B +Math.sqrt(B**2 -4 * A * C)/ 2 * A;
       var nroot = -B -Math.sqrt(B**2 -4 * A * C)/ 2 * A;
+
+      var out= document.getElementById("out");
+      out.innerHTML = proot + "      " +nroot;
         }
      
         
