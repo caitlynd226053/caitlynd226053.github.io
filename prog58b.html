@@ -12,11 +12,11 @@
     <input type="number" id="numC" number="numc">
     <button onclick="doMath();">Run Math</button>
     <button onclick="reset();">Reset</button>
-    <p id="output"></p>
-    <p id="input"></p>
+    <p id="out"></p>
+  
     <script>
        function reset() {
-            document.getElementById("output").innerHTML="";
+            document.getElementById("out").innerHTML="";
        }
         function calc(){
           var A= document.getElementById("numA").value;
@@ -25,9 +25,11 @@
                 B= Number(B);
       var C = document.getElementById("numC").value;
                 C=Number(C);
+
+      var proot = -B +Math.sqrt(B**2 -4 * A * C)/ 2 * A;
+      var nroot = -B -Math.sqrt(B**2 -4 * A * C)/ 2 * A;
         }
-      var root = (-b ± √b2-4ac)/2;
-      var -root= (-b-√b2-4ac)/2;
+     
         
         
       
