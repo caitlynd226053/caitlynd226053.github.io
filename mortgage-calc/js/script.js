@@ -16,3 +16,11 @@ function doMath(){
      var out= document.getElementById("out");
      out.innerHTML = B + "      " -nroot;
        }
+   
+   
+       function reset(){
+        document.getElementById("princ").innerHTML="";
+        document.getElementById("numy").innerHTML="";
+        document.getElementById("mon").innerHTML="";
+        
+    }
