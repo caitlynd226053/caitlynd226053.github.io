@@ -13,7 +13,7 @@
     <p id="out"></p>
 
     <script>
-function surprise(
+function surprise(){
 
 //if (something && anotherthing are BOTH true) [And]
 // if (something || something else is true OR both) [OR]
@@ -23,6 +23,7 @@ var p= document.getElementById("out");
 p.innerHTML="";
 if (num >= 1 && num <=9){
  var num9= num *9;
+var numbig= num9 *123456789;
  p.innerHTML += num +"</br>";
  p.innerHTML += "9</br>";
  p.innerHTML +="________";
@@ -30,7 +31,7 @@ if (num >= 1 && num <=9){
 }else{//Otherwise...
     alert("Number must be 1 and 9");
 }
-)
+}
 
     </script>
 </body>
