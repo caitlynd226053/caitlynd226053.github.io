@@ -22,5 +22,6 @@ function doMath(){
         document.getElementById("princ").innerHTML="";
         document.getElementById("numy").innerHTML="";
         document.getElementById("mon").innerHTML="";
-        
+        document.getElementById("intrat").innerHTML="";
+
     }
