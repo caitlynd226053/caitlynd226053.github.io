@@ -1,6 +1,12 @@
 h1{
     text-align:center;
     color: rgb(119, 9, 9);
+    margin: center; 
+    background-color: #d8a9a9;
+    font-family: Lucida, Sans Unicode, Helvetica, Arial, Sans Serif;
+    font-style: bold;
+    font-size: 22pt;
+    text-decoration: underline;
 }
 *{
     background-color:rgb(253, 221, 221)
