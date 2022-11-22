@@ -12,5 +12,7 @@ h1{
     background-color:rgb(253, 221, 221)
 }
 #intrat #numy,#princ,#mon{
-
+    font-size: 11pt;
+    color:rgb(119, 9, 9);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
