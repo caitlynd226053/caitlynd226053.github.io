@@ -7,9 +7,7 @@ function doMath(){
                t=Number(t);
    var m = document.getElementById("mon").value;
                m=Number(m);
-   var n = document.getElementById("n").value;
-               n=Number(n);
-
+   var n = 12;
      var B = P * (1 + r/n);
      var nroot = m * (1 + r/n)**n*t -1 / r/n;
 
