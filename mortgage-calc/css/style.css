@@ -21,3 +21,10 @@ div{
     margin: 5%;
     background-color:white
 }
+
+#buttons{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(225, 128, 144);
+
+}
