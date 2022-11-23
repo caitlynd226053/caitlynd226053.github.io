@@ -11,7 +11,7 @@ h1{
 *{
     background-color: pink;
 }
-#intrat #numy,#princ,#mon{
+#intrat,#numy,#princ,#mon{
     margin-top: 5%;
     font-size: 11pt;
     color:rgb(119, 9, 9);
@@ -27,4 +27,9 @@ div{
     margin-right: 25%;
     color: #d8a9a9;
     font-weight: bold;
+}
+#calculate,#reset{
+    border-radius: 15%;
+    font-weight: bold;
+    
 }
