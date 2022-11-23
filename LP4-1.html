@@ -17,7 +17,20 @@
             var copies = Number(document.getElementById("copies").value);
             var price= 0.0;
             var total= 0.0;
+
+            if(copies > 0 && copies <=99){
+                price = 0.30;
+            } else if (copies> 99 && copies <=499){
+                price = 0.28;
+            } else if (copies > 499 && copies <=799){
+                price = 0.27;
+            } else if (copies >749 && copies <= 1000){
+                price =0.26;
+            } else if (copies >100){
+                price = 0.25;
+            }
         }
+
     </script>
 </body>
 </html>
