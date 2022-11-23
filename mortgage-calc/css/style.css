@@ -36,3 +36,8 @@ div{
     font-weight: bold;
     box-shadow: 1.5px 1.5px rgb(119, 9, 9);
 }
+#subtext{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(119, 9, 9);
+}
