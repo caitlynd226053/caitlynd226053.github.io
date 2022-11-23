@@ -15,7 +15,6 @@ function doMath(){
      out.innerHTML = B-nroot;
        }
    
-   
        function reset(){
         document.getElementById("princ").innerHTML="";
         document.getElementById("numy").innerHTML="";
