@@ -31,5 +31,5 @@ div{
 #calculate,#reset{
     border-radius: 15%;
     font-weight: bold;
-    
+    box-shadow: 1.5px 1.5px rgb(119, 9, 9);
 }
