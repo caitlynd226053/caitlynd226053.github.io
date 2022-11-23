@@ -19,11 +19,12 @@ h1{
 }
 div{
     margin: 5%;
-    background-color:white
+    background-color:white;
 }
 
 #buttons{
     margin-left: 35%;
     margin-right: 25%;
-    color: rgb(116, 26, 41);
+    color: rgb(225, 128, 144);
+
 }
