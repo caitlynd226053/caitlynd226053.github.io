@@ -15,7 +15,17 @@
         function getGrade(){
             var prct = Number(document.getElementById("grade"));
             var grade = "";
-            if
+            if (grade> = 90){
+                grade ="A";
+            } else if (grade >= 80 && grade <90){
+                grade ="B";
+            } else if (grade>= 70 && grade <80){
+                grade ="C";
+            } else if ( grade >= 60 && grade < 70){
+                grade ="D";
+            } else if ( grade>= 50 && grade <60){
+                grade ="F";
+            }
         }
     </script>
 </body>
