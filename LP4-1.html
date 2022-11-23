@@ -31,7 +31,14 @@
             } else {
                 p.innerHTML = "Invalid number of copies";
             }
+
+            if (price >0){
+                p.innerHTML = "Pricer per copy is $" + price + "</br>";
+                total =price * copies;
+                p.innerHTML += "Total cost is $" + total.toFixed(2);
+            }
         }
+
 
     </script>
 </body>
