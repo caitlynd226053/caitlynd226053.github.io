@@ -12,7 +12,7 @@ function doMath(){
      var nroot = m * (1 + r/n)**n*t -1 / r/n;
 
      var out= document.getElementById("out");
-     out.innerHTML = B-nroot;
+     out.innerHTML = (B - nroot).toFixed(2);
        }
    
        function reset(){
