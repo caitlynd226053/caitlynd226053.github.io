@@ -1,3 +1,10 @@
+function clear() {
+  document.getElementById("princ").reset();
+  document.getElementById("numy").reset();
+  document.getElementById("mon").reset();
+  document.getElementById("intrat").reset();
+}
+
 function doMath(){
     var P = document.getElementById("princ").value;
                P= Number(P);
@@ -15,11 +22,3 @@ function doMath(){
      out.innerHTML = "Remaining mortgage balance is $ " + (B - nroot).toFixed(2);
 
        }
-   
-       function reset(){
-        document.getElementById("princ").innerHTML="";
-        document.getElementById("numy").innerHTML="";
-        document.getElementById("mon").innerHTML="";
-        document.getElementById("intrat").innerHTML="";
-  
-    }
