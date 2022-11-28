@@ -1,8 +1,8 @@
-function clear() {
-  document.getElementById("princ").reset();
-  document.getElementById("numy").reset();
-  document.getElementById("mon").reset();
-  document.getElementById("intrat").reset();
+function reset() {
+  document.getElementById("princ").value = '';
+  document.getElementById("numy").value = '';
+  document.getElementById("mon").value = '';
+  document.getElementById("intrat").value = '';
 }
 
 function doMath(){
