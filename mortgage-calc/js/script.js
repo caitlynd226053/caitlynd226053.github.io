@@ -21,5 +21,5 @@ function doMath(){
         document.getElementById("numy").innerHTML="";
         document.getElementById("mon").innerHTML="";
         document.getElementById("intrat").innerHTML="";
-
+  
     }
