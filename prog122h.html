@@ -16,9 +16,11 @@
            var sqrt = Math.sqrt(lcv);
            var cube = lcv**3;
            var frthrt = lcv**(1.0/4.0); // nth root is num**(1.0/n)
-            msg += lcv + "&emsp" + square + " &emsp" + sqrt + "&emsp" + cube + "&emsp" + frthrt + "<br/>";
+            msg += lcv + "&emsp" + square + " &emsp" + sqrt + "&emsp" + cube + "&emsp" + frthrt.toFixed(4) + "<br/>";
+            
             lcv ++;
         }
+        document.getElementById("out").innerHTML = msg;
     </script>
 </body>
 </html>
