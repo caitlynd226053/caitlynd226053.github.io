@@ -11,14 +11,15 @@
     <p id="out"></p>
     
     <script>
-        var msg = "X &emsp; Y &emsp";
+        var msg = "X &emsp; Y </br>";
         var lcv = -12; //Loop Control Variable
-        while (lcv < 16 ){
+        while (lcv <= 16 ){
         var x = lcv;
         var y = lcv**6 - 3*lcv**5 - 93*lcv**4 + 87*lcv**3 + 1596*lcv**2 - 1380*lcv -2800;
         lcv++;
+        msg += x + "&emsp;" + y + "</br>";
     }
-        document.getElementById("out") = msg;
+        document.getElementById("out").innerHTML = msg;
     </script>
 </body>
 </html>
