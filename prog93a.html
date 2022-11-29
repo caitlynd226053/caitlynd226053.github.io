@@ -7,14 +7,16 @@
     <title>Prog93a</title>
 </head>
 <body>
-    <p> Enter KWH  used 993</p>
+    <p> Enter KWH  used 993</p><input type="number" id="number">
     <h1>C O M P S C I Electric</h1>
    <hr>
-   <p>Kilowatts Used</p>
+   
     <p id="out"></p>
 
     <script>
-        var msg = 
+        var kwh = document.getElementById("number").value;
+        var msg = "Kilowatts Used &emsp; &emsp; " +kwh +"</br>";
+        
     </script>
 </body>
 </html>
