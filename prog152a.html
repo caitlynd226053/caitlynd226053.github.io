@@ -9,13 +9,16 @@
 <body>
     <p id="out"></p>
     <script>
-        var out =" ";
-        for( var col1 =3; col1 >= 3; col1<=9669){
-            var col2 = col1 + 1;
-            var col3 = col1 * 2 ;
-            var col4 = col1 ** 2;
-            out += col1 + "&emsp;" + col2 + "&emsp;" + col3 + "&emsp" + col4;
+        while(lcv <= 9669; lcv >= 3;) {
+            document.write(lcv +" ");
+            lcv++;
         }
+        document.writeln("</br>");
+
+        for(var lcv2=0; lcv2 < 10; lcv2++){
+            document.write(lcv2 + " ");
+        }
+        
         document.getElementById("out").innerHTML = out;
 </body>
 </html>
