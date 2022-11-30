@@ -12,23 +12,20 @@
     <hr>
    
     <p id="out"></p>
-    <input type="number" id= "Base"><button onclick="doMath()">Base Rate</button>
-    <p>Surchage</p>
+    
     <hr>
 
     <script>
        function calc(){
         var kwh = document.getElementById("number").value;
         var msg = "Kilowatts Used &emsp; &emsp; " +kwh +"</br>" + "<hr>";
-        
+        var tax = .0475;
+        var baserate = kwh * tax;
+        msg += "Baserate &emsp;" + kwh + "@ $" + tax + "&emsp; $" + baserate + "<br>";
 
         document.getElementById("out").innerHTML =msg;
        }
-       function doMath(){
-            var kwh = document.getElementById("number").value;
-            var msg = "Kilowatts @ $0.0475 &emsp; &emsp" + kwh*0.0475 +"</br>";
-       }
-       document.getElementById("out").innerHTML =msg;
+       
     </script>
 </body>
 </html>
