@@ -9,13 +9,15 @@
 <body>
     <p id="out"></p>
     <script>
-        while(lcv <= 9669; lcv >= 3;) {
-            document.write(lcv +" ");
-            lcv++;
+       var sum =  0;
+       for(var lcv =3; lcv <= 9669; lcv += 3) {
+            sum += lcv;
+
         }
       
         
         
-        document.write("out").innerHTML = out;
+        document.getElementById("out").innerHTML = sum;
+    </script>
 </body>
 </html>
