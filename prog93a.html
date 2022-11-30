@@ -12,7 +12,7 @@
     <hr>
    
     <p id="out"></p>
-    <button onclick="doMath()">Base Rate</button>
+    <input type="number" id= "Base"><button onclick="doMath()">Base Rate</button>
     <p>Surchage</p>
     <hr>
 
@@ -22,12 +22,13 @@
         var msg = "Kilowatts Used &emsp; &emsp; " +kwh +"</br>" + "<hr>";
         
 
-        document.getElementById("out").innerHTML =msg
+        document.getElementById("out").innerHTML =msg;
        }
        function doMath(){
             var kwh = document.getElementById("number").value;
             var msg = "Kilowatts @ $0.0475 &emsp; &emsp" + kwh*0.0475 +"</br>";
        }
+       document.getElementById("out").innerHTML =msg;
     </script>
 </body>
 </html>
