@@ -7,6 +7,15 @@
     <title>Prog152a</title>
 </head>
 <body>
-    
+    <p id="out"></p>
+    <script>
+        var out =" ";
+        for( var col1 =3; col1 >= 3; col1<=9669){
+            var col2 = col1 + 1;
+            var col3 = col1 * 2 ;
+            var col4 = col1 ** 2;
+            out += col1 + "&emsp;" + col2 + "&emsp;" + col3 + "&emsp" + col4;
+        }
+        document.getElementById("out").innerHTML = out;
 </body>
 </html>
