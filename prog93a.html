@@ -23,7 +23,8 @@
         document.getElementById("out").innerHTML =msg
        }
        function doMath(){
-            
+            var kwh = document.getElementById("number").value;
+            var msg = "Kilowatts @ $0.0475 &emsp; &emsp" + kwh*0.0475 +"</br>";
        }
     </script>
 </body>
