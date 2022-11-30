@@ -22,7 +22,9 @@
         var tax = .0475;
         var baserate = kwh * tax;
         msg += "Baserate &emsp;" + kwh + "@ $" + tax + "&emsp; $" + baserate + "<br>";
-
+        var surcharge = basrate / 0.1;
+        msg += "Surchage &emsp;" + surcharge;
+        
         document.getElementById("out").innerHTML =msg;
        }
        
