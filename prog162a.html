@@ -11,13 +11,15 @@
     <p id="out"></p>
     <script>
        function doMath(){
-       var sum =  0;
-       var lcv =6; lcv <= 12; lcv += 6 
-            sum *=lcv;
+       var sum =  1;
+       var input = document.getElementById("number").value
+       for(var lcv =1; lcv <= input; lcv += 1){
+            sum *=lcv; }
+            document.getElementById("out").innerHTML = sum;
     }
         
         
-        document.getElementById("out").innerHTML = sum;
+       
     </script>
 </body>
 </html>
