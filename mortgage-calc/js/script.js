@@ -9,7 +9,7 @@ function doMath(){
     var P = document.getElementById("princ").value;
                P= Number(P);
    var r = document.getElementById("intrat").value;
-               r=Number(r);
+               r=Number(r)/100;
    var t = document.getElementById("numy").value;
                t=Number(t);
    var m = document.getElementById("mon").value;
