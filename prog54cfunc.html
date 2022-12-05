@@ -7,6 +7,45 @@
     <title>Prog54c with Functions</title>
 </head>
 <body>
+<label for="rad">Radius:</label>
+<input type="number" id="rad" name="rad" placeholder="0" required>
+
+<button onclick="calc()">Calculate</button>
+
+<button onclick="reset()">Clear</button>
+
+<p id="out" style="background-color: aqua; padding: 15px;"></p>
+
+<script>
+    var pi = 3.14159;
+
+    function reset(){
+        document.getElementById("len").value = "";
+        document.getElementById("wid").value = "";
+        document.getElementById("out").innerHTML = "";
+    }
+    function getArea(rad) {
+        return pi * rad**2;
+        // return area;
+
+    }
+    function getCirc(rad){
+        var circ = 2 * pie * rad;
+        return circ;
+       
+    }
+
+    function calc(){
+        var len = Number(document.getElementById("len").value);
+        var wid = Number(document.getElementById("width").value);
+        var area = getArea(len, wid);
+        var perim = getPerim(len, wid);
+        document.getElementById("out").innerHTML = 
+        "Area:" + area + "</br>Perimeter:" + perim; 
+    }
+
     
+</script>
+  
 </body>
 </html>
