@@ -24,7 +24,7 @@
             // return area;
 
         }
-        function getperim(length, width){
+        function getPerim(length, width){
             var perim = 2 * length + 2 * width;
             return perim;
             // return 2 * length + 2 * width;
@@ -33,7 +33,8 @@
         function calc(){
             var len = Number(document.getElementById("len").value);
             var wid = Number(document.getElementById("width").value);
-            
+            var area = getArea(len, wid);
+            var perim = getPerim(len,wid);
         }
     </script>
 
