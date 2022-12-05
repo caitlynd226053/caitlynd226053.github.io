@@ -20,6 +20,11 @@
     <p id="out" style="background-color: aqua; padding: 15px;"></p>
 
     <script>
+        function reset(){
+            document.getElementById("len").value = "";
+            document.getElementById("wid").value = "";
+            document.getElementById("out").innerHTML = "";
+        }
         function getArea(length, width) {
             return length * width;
             //var area = length * width;
@@ -41,11 +46,7 @@
             "Area:" + area + "</br>Perimeter:" + perim; 
         }
 
-        function reset(){
-            document.getElementById("len").value = "";
-            document.getElementById("wid").value = "";
-            document.getElementById("out").innerHTML = "";
-        }
+        
     </script>
 
 
