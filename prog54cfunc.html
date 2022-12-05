@@ -36,12 +36,11 @@
     }
 
     function calc(){
-        var len = Number(document.getElementById("len").value);
-        var wid = Number(document.getElementById("width").value);
-        var area = getArea(len, wid);
-        var perim = getPerim(len, wid);
+        var rad = Number(document.getElementById("rad").value);
+        var area = getArea(rad);
+        var circ = getCirc(rad);
         document.getElementById("out").innerHTML = 
-        "Area:" + area + "</br>Perimeter:" + perim; 
+        "Area:" + area + "</br>Circumference:" + circ; 
     }
 
     
