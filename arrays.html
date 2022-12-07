@@ -9,6 +9,7 @@
 <body>
     <p id="out"></p>
     <script>
+        //Make a new array (list) of cars
         var cars = ["Saab", "Volvo", "BMW"];
         //Add a car
         cars[3] ="GMC";
@@ -16,6 +17,8 @@
         // Change a car
         cars[0] = "Chevrolet";
         //Saab in spot 0, so now its Chevrolet
+        //Display cars
+        document.getElementById("out").innerHTML = cars;
 
     </script>
 </body>
