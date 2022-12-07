@@ -20,6 +20,12 @@
         //Display cars
         document.getElementById("out").innerHTML = cars;
 
+        //Print one element at a time
+        var msg = "<ul>";
+        for (var lcv = 0; lcv <cars.length; lcv++){
+            msg += "<li>" +cars[lcv] + "</li>";
+        }
+
     </script>
 </body>
 </html>
