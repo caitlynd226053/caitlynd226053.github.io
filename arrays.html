@@ -30,8 +30,11 @@
 
         var msg2 = "<ol>";
         function doli(car){
-            
+            msg2 += "<li>" + car + "</li>";
         }
+        cars.forEach(doli);
+        msg2 += "</ol>";
+        document.write(msg2);
 
     </script>
 </body>
