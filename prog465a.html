@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog465a</title>
+</head>
+<body>
+    <script>
+        var mat1 = [];
+        var mat2 = [];
+        var ans = [];
+
+        for (var r = 0; r < 4; r++) {
+            var row1 = []
+            var row2 = []
+            for (var c = 0; c < 4; c++) {
+                var n1 = Math.round(Math.random() * 9);
+                var n2 = Math.round(Math.random() * 9);
+                row1.push(n1);
+                row2.push(n2);
+            }
+            mat1.push(row1);
+            mat2.push(row2);
+            ans.push([]);
+        }
+
+        for (var r = 0; r < mat1.length; r++) {
+            for (var c = 0; c < mat1[0].length; c++) {
+                ans[r][c] = Math.max(mat1[r][c], mat2[r][c]);
+            }
+        }
+
+        for (var r = 0; r < ans.length; r++) {
+            for (var c = 0; c < ans[0].length; c++) {
+                document.write(ans[r][c] + " ");
+            }
+            document.write("<br/>");
+        }
+    </script>
+</body>
+</html>
