@@ -8,21 +8,22 @@
 </head>
 <body>
     <script>
-        function getAreaAndPerim(length, width){
+        function getAreaAndPerim(length, width) {
             var area = length * width;
-            var perim = 2 * length + 2 * width; 
-            return [ area, perim]
+            var perim = 2 * length + 2 * width;
+            return [area, perim]
         }
-        //Makes random numbers between 1 and 10 
-        var num1 = Math.random() * 10 + 1;
-        var num2 = Math.random() * 10 + 1;
-        var aAndP = getAreaAndPerim( num1, num2);
-        var area = aAndP [0];
-        var perim = aAndP [1];
-        document.writeln("Length:" + num1 + "<br/>");
+        // Make random numbers between 1 and 10
+        // NEED TO ROUND NUM1 AND NUM2 TO INTS
+        var num1 = Math.round(Math.random() * 10 + 1);
+        var num2 = Math.round(Math.random() * 10 + 1);
+        var aAndP = getAreaAndPerim(num1, num2);
+        var area = aAndP[0];
+        var perim = aAndP[1];
+        document.writeln("Length: " + num1 + "<br/>");
         document.writeln("Width: " + num2 + "<br/>");
         document.writeln("Area: " + area + "<br/>");
-        document.writeln("Perimeter: " + perim + "<br/>")
+        document.writeln("Perimeter: " + perim + "<br/>");
     </script>
 </body>
 </html>
