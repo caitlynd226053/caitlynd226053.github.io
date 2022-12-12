@@ -22,6 +22,7 @@
      document.write("Rooms:" + hotel.rooms + "<br/>");
      document.write("Available:" + hotel.checkAvailable() + "<br/>");
 
+     //Constructor Notation - above is Object Notation
      function Hotel (name, rooms, booked){
         this.name = name;
         this.rooms = rooms;
@@ -31,6 +32,7 @@
         };
 
      }
+     var hotel2 = new Hotel("Microtel", 25, 5);
     </script>
 </body>
 </html>
