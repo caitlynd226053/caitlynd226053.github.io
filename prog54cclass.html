@@ -23,7 +23,7 @@
 
             calc(){
                 // Calculate this.area and this.circumference
-                this.area = 
+                this.area = this.pi * this.radius**
             }
             getArea(){
                 // Return this.area
@@ -31,6 +31,12 @@
             getCircumference(){
                 //Return this.circumference
             }
+        }
+        function doMath(){
+            var rad = Number(document.getElementById("rad").value);
+            var circ = new Circle(rad);
+            circ.calc();
+            document.getElementById("out").innerHTML = "Area:" + calc.getArea() + "<br/>" + calc.getCircumference() + "<br/>";
         }
 
 
