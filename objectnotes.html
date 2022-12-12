@@ -35,6 +35,18 @@
      var hotel2 = new Hotel("Microtel", 25, 5);
      document.write("Name:" + hotel2.name + "<br/>");
      document.write("Rooms Available:" + hotel2.checkAvailable() + "<br/>"); 
+
+     //Class Notation
+     class Hotel2{
+        constructor( name, rooms, booked){
+            this.name = name;
+            this.booked = booked;
+            this.rooms = rooms;
+        }
+        checkAvailable(){
+            return this.rooms - this.booked;
+        }
+     }
     </script>
 </body>
 </html>
