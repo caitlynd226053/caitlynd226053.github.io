@@ -21,6 +21,16 @@
      document.write(hotel.name +"<br/>");
      document.write("Rooms:" + hotel.rooms + "<br/>");
      document.write("Available:" + hotel.checkAvailable() + "<br/>");
+
+     function Hotel (name, rooms, booked){
+        this.name = name;
+        this.rooms = rooms;
+        this.booked =booked;
+        this.checkAvailable = function(){
+            return this.rooms - this.booked;
+        };
+
+     }
     </script>
 </body>
 </html>
