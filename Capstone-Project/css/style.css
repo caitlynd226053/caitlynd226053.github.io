@@ -4,3 +4,8 @@ hr.new1{
 *{
     background-color: #E9CE99;
 }
+div{
+    position: relative;
+    border: 1px black;
+    height: 300px;
+}
