@@ -1,14 +1,21 @@
 const images = document.querySelectorAll("img");
 let i=0;
 setInterval(function()){
-   images.ForEach( (img, i) => {
-    img.style.display ='none';
+  
+   
 
-   })
-
-   if (i == images.length){
-    i =0;
+   if (i ==0){
+    images[i].style.display = 'block';
+   }else if{
+    images[i-1].style.display = 'none';
+    images[i].style.display = 'block';
+    i=0;
    }
-   images[i].style.display = 'block';
+   else{
+    images[i-1].style.display = 'none';
+    images[i].style.display = 'block';
+   }
+   
    i++;
+
 },2000);
