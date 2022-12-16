@@ -17,6 +17,6 @@ setInterval(function(){
    
    i++;
 
-},2000);
+},10000);
 }
 createImageCarousel(homeImages);
