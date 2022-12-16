@@ -1,5 +1,5 @@
-const homeimages = document.querySelectorAll(" #homeImageSlider img");
-function createImageCarousel(homeImages){
+const homeImages = document.querySelectorAll("#homeImageSlider img");
+function createImageCarousel(images){
    let i =0;
 setInterval(function(){
    if (i ==0){
@@ -18,3 +18,4 @@ setInterval(function(){
 
 },2000);
 }
+createImageCarousel(homeImages);
