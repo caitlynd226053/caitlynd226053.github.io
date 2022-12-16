@@ -10,10 +10,12 @@ div{
     height: 300px;
 }
 img{
-    opacity: 0;
+    opacity: 100;
     position: absolute;
     top: 0;
     left: 0;
+    height:200px;
+    width:150px;
 }
 .fade-in-img{
     animation: fadeIn 2s;
