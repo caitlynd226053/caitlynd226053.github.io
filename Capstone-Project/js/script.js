@@ -1,4 +1,4 @@
-const images = document.querySelectorAll("img");
+const images = document.querySelectorAll(" #homeImageSlider img");
 let i=0;
 function createImageCarousel(homeImages);
 setInterval(function(){
