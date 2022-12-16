@@ -1,6 +1,6 @@
 const homeimages = document.querySelectorAll(" #homeImageSlider img");
-let i=0;
-function createImageCarousel(homeImages);
+function createImageCarousel(homeImages){
+   let i =0;
 setInterval(function(){
    if (i ==0){
     images[i].style.display = "fade-in-image";
@@ -17,3 +17,4 @@ setInterval(function(){
    i++;
 
 },2000);
+}
