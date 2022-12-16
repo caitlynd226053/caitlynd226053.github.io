@@ -23,14 +23,14 @@ img{
     height:350px;
     width:250px;
 }
-.fade-in-img{
+.fade-in-image{
     animation: fadeIn 2s;
 }
 @keyframes fadeIn{
     0%{opacity: 0;}
     100%{opacity:1;}
 }
-.fade-out-img{
+.fade-out-image{
     animation: fadeOut 2s;
 }
 @keyframes fadeOut{
