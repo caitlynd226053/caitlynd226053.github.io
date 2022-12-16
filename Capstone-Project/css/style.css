@@ -22,3 +22,6 @@ img{
     0%{opacity: 0;}
     100%{opacity:1;}
 }
+.fade-out-img{
+    animation: fadeOut 2s;
+}
