@@ -1,6 +1,10 @@
 hr.new1{
     border: 2px solid teal;
 }
+h1{
+    text-align: center;
+    
+}
 *{
     background-color: #E9CE99;
 }
@@ -8,6 +12,8 @@ div{
     position: relative;
     border: 1px black;
     height: 300px;
+    float: right;
+    margin-right: 32%;
 }
 img{
     opacity: 100;
