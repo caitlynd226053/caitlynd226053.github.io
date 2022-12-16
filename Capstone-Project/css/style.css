@@ -20,8 +20,8 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    height:200px;
-    width:150px;
+    height:350px;
+    width:250px;
 }
 .fade-in-img{
     animation: fadeIn 2s;
