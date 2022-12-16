@@ -1,8 +1,6 @@
 const images = document.querySelectorAll("img");
 let i=0;
-function createImageCarousel(images){
-   let i= 0;
-}
+
 setInterval(function(){
    if (i ==0){
     images[i].style.display = "fade-in-image";
