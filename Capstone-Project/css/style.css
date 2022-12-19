@@ -64,6 +64,9 @@ img{
     #about, #portfolio, #contact{
         font-size: 100px;
     }
+    ul{
+        font-size:100px;
+    }
 }
 /*Iphone*/
 @media screen and (max-width: 600px){
@@ -79,6 +82,9 @@ img{
         font-size: 15px;
     }
     #about, #portfolio, #contact{
+        font-size:20px;
+    }
+    ul{
         font-size:20px;
     }
 }
