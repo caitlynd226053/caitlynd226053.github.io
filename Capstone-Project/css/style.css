@@ -45,7 +45,7 @@ img{
         float: left;
     }
     h1{
-        size: 
+        font-size: 250px;
     }
 }
 /*Iphone*/
@@ -54,5 +54,8 @@ img{
         width: 100px;
         height: 100px;
         float: left;
+    }
+    h1{
+        font-size: 25px;
     }
 }
