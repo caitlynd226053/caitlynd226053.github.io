@@ -9,6 +9,13 @@ h1{
     text-align: center;
     
 }
+#about,#portfolio, #contact{
+    color: teal;
+    font-weight: bold;
+}
+ul{
+    color: teal;
+}
 *{
     background-color: #E9CE99;
 }
@@ -54,6 +61,9 @@ img{
     #welcome{
         font-size: 50px;
     }
+    #about, #portfolio, #contact{
+
+    }
 }
 /*Iphone*/
 @media screen and (max-width: 600px){
@@ -67,5 +77,8 @@ img{
     }
     #welcome{
         font-size: 15px;
+    }
+    #about, #portfolio, #contact{
+        
     }
 }
