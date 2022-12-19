@@ -11,7 +11,7 @@ h1{
 div{
     position: relative;
     border: 1px black;
-    height: 300px;
+    height: 25%;
     float: right;
     margin-right: 32%;
 }
@@ -20,8 +20,8 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    height:350px;
-    width:250px;
+    height:250px;
+    width: 200px;
 }
 .fade-in-image{
     animation: fadeIn 2s;
