@@ -37,15 +37,22 @@ img{
     0%{opacity: 1;}
     100%{opacity:0;}
 }
+/*Computer*/
 @media screen and (min-width: 768px){
     img{
         width: 600px;
         height: 600px;
+        float: left;
+    }
+    h1{
+        size: 
     }
 }
+/*Iphone*/
 @media screen and (max-width: 600px){
     img{
         width: 100px;
         height: 100px;
+        float: left;
     }
 }
