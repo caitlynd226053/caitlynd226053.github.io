@@ -5,6 +5,10 @@ h1{
     text-align: center;
     color: black;
 }
+#welcome{
+    text-align: center;
+    
+}
 *{
     background-color: #E9CE99;
 }
@@ -47,6 +51,9 @@ img{
     h1{
         font-size: 100px;
     }
+    #welcome{
+        font-size: 75px;
+    }
 }
 /*Iphone*/
 @media screen and (max-width: 600px){
@@ -57,5 +64,8 @@ img{
     }
     h1{
         font-size: 25px;
+    }
+    #welcome{
+        font-size: 15px;
     }
 }
