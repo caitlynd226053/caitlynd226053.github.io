@@ -67,6 +67,10 @@ img{
     ul{
         font-size:100px;
     }
+    *{
+        margin-left:32%;
+        margin-right: 32%;
+    }
 }
 /*Iphone*/
 @media screen and (max-width: 600px){
@@ -87,4 +91,5 @@ img{
     ul{
         font-size:20px;
     }
+    
 }
