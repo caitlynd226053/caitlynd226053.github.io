@@ -46,6 +46,11 @@ img{
     }
     p, #teal,li{
         font-size: 25px;
+        
+    }
+    table{
+        font-size:25px;
+        margin:10%;
     }
 }
 /*Iphone*/
