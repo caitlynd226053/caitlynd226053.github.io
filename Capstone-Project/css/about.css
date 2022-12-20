@@ -66,6 +66,10 @@ img{
     p, #teal,li{
         font-size: 15px;
     }
+    table{
+        font-size: 15px;
+        margin: 2%;
+    }
 }
 table, td, th { border: 1px solid black; }
 th{ background-color: teal;}
