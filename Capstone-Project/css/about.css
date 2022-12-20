@@ -8,6 +8,7 @@ h1,h2,h3,h4{
 }
 #teal{
     color: teal;
+    font-weight: bold;
 }
 *{
     background-color: #E9CE99;
