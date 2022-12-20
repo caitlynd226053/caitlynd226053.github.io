@@ -67,3 +67,11 @@ img{
         font-size: 15px;
     }
 }
+table, td, th { border: 1px solid black; }
+th{ background-color: teal;}
+.rheader { background-color: tan; }
+td {font-weight: 50%}
+body { 
+    margin: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;}
