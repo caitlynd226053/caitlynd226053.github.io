@@ -8,12 +8,10 @@ h1{
 *{
     background-color: #E9CE99;
 }
-#home,#contact{
+#home,#contact,#portfolio{
     color: teal;
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
-    margin: 2%;
 }
 img{
     opacity: 100;
@@ -37,15 +35,15 @@ img{
     #welcome{
         font-size: 50px;
     }
-    #about, #portfolio, #contact{
-        font-size: 100px;
-    }
-    ul{
-        font-size:100px;
-    }
+
+    
     *{
         margin-left:5%;
         margin-right: 5%;
+    }
+    #home,#contact,#portfolio{
+        font-size: 20px;
+        margin: 2%;
     }
 }
 /*Iphone*/
