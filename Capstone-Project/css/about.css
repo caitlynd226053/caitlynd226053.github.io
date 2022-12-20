@@ -46,6 +46,7 @@ img{
     }
     p, #teal,li{
         font-size: 25px;
+        margin: 5px;
         
     }
     table{
