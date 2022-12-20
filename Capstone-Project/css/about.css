@@ -42,8 +42,8 @@ img{
         margin-right: 5%;
     }
     #home,#contact,#portfolio{
-        font-size: 20px;
-        margin: 2%;
+        font-size: 50px;
+        margin: 20%;
     }
 }
 /*Iphone*/
@@ -59,8 +59,9 @@ img{
     #welcome{
         font-size: 15px;
     }
-    #about, #portfolio, #contact{
+    #home, #portfolio, #contact{
         font-size:20px;
+        margin: 2%;
     }
     ul{
         font-size:20px;
