@@ -6,6 +6,9 @@ h1,h2,h3,h4{
     color: black;
 
 }
+#teal{
+    color: teal;
+}
 *{
     background-color: #E9CE99;
 }
