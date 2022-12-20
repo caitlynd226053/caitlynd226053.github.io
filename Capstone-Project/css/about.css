@@ -44,7 +44,7 @@ img{
         font-size: 50px;
         margin: 10%;
     }
-    p, #teal{
+    p, #teal,li{
         font-size: 25px;
     }
 }
@@ -63,7 +63,7 @@ img{
         font-size:20px;
         margin: 2%;
     }
-    p, #teal{
+    p, #teal,li{
         font-size: 15px;
     }
 }
