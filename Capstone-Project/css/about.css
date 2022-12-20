@@ -30,7 +30,7 @@ img{
         float: right;
         margin-right: 0.5%;
     }
-    h1{
+    h1,h2,h3,h4{
         font-size: 100px;
     }
     #welcome{
@@ -54,7 +54,7 @@ img{
         height: 100px;
         float: right;
     }
-    h1{
+    h1,h2,h3,h4{
         font-size: 25px;
     }
     #welcome{
