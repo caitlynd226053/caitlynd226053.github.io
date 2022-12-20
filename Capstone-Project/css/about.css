@@ -44,6 +44,9 @@ img{
         font-size: 50px;
         margin: 10%;
     }
+    p, #teal{
+        font-size: 25px;
+    }
 }
 /*Iphone*/
 @media screen and (max-width: 600px){
@@ -60,5 +63,7 @@ img{
         font-size:20px;
         margin: 2%;
     }
-    
+    p, #teal{
+        font-size: 15px;
+    }
 }
