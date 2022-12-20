@@ -33,11 +33,6 @@ img{
     h1,h2,h3,h4{
         font-size: 100px;
     }
-    #welcome{
-        font-size: 50px;
-    }
-
-    
     *{
         margin-left:5%;
         margin-right: 5%;
@@ -57,15 +52,10 @@ img{
     h1,h2,h3,h4{
         font-size: 25px;
     }
-    #welcome{
-        font-size: 15px;
-    }
+
     #home, #portfolio, #contact{
         font-size:20px;
         margin: 2%;
-    }
-    ul{
-        font-size:20px;
     }
     
 }
