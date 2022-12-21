@@ -15,7 +15,7 @@ h1,h2,h3,h4{
     font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 p{
-    float; left;
+    float:left;
 }
 #home,#contact,#about{
     color: teal;
