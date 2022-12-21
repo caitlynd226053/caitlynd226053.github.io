@@ -1,0 +1,122 @@
+hr.new1{
+    border: 2px solid teal;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    color: black;
+
+}
+#teal{
+    color: teal;
+    font-weight: bold;
+}
+*{
+    background-color: #E9CE99;
+}
+#home,#contact,#portfolio{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    opacity: 100;
+    top: 0;
+    float: right;
+    height:250px;
+    width: 200px;
+    margin-right: 2%;
+}
+/*Computer*/
+@media screen and (min-width: 768px){
+    img{
+        width: 500px;
+        height: 500px;
+        float: right;
+        margin-right: 0.5%;
+        border: solid teal 5px;
+        border-radius: 20px;
+    }
+    #drum,#run,#show{
+        float: right;
+        clear: right;
+        width:300px;
+        height:300px;
+        margin-bottom: 25px;
+        display: block;}
+    #wall{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 15px;
+        display: block;
+    }
+    h1,h2,h3,h4{
+        font-size: 100px;
+    }
+    *{
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    #home,#contact,#portfolio{
+        font-size: 50px;
+        margin: 10%;
+    }
+    p, #teal,li{
+        font-size: 25px;
+        margin: 5%;
+        
+    }
+    table{
+        font-size:30px;
+        margin:5px;
+    }
+}
+/*Iphone*/
+@media screen and (max-width: 600px){
+    img{
+        width: 100px;
+        height: 100px;
+        float: right;
+        border: solid teal 2px;
+        border-radius: 5px;
+    }
+    #drum,#run,#show{
+        float: right;
+        clear: right;
+        width:100px;
+        height:100px;
+        margin-bottom: 25px;
+        display: block;
+        
+       
+    }
+    #wall{
+        float: right;
+        display: block;
+        clear: right;
+        margin-bottom: 5px;
+    }
+    h1,h2,h3,h4{
+        font-size: 25px;
+    }
+
+    #home, #portfolio, #contact{
+        font-size:20px;
+        margin: 2%;
+    }
+    p, #teal,li{
+        font-size: 15px;
+        margin: 2%;
+    }
+    table{
+        font-size: 15px;
+        margin: 2%;
+    }
+}
+table, td, th { border: 1px solid black; }
+th{ background-color: teal;}
+.rheader { background-color: tan; }
+td {font-weight: 50%}
+body { 
+    margin: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;}
