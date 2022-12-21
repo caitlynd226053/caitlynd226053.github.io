@@ -62,7 +62,7 @@ img{
         height: 100px;
         float: right;
     }
-    #drum,#wall,#run{
+    #drum,#wall,#run,#show{
         float: right;
         clear: right;
         width:100px;
