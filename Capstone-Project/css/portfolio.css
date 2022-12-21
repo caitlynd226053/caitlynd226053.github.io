@@ -66,10 +66,10 @@ img{
         font-size: 45px;
         margin: 10%;
     }
-    p, #teal,li{
+    p{
         font-size: 25px;
         margin: 5%;
-        
+        float: left;
     }
 }
 /*Iphone*/
@@ -105,9 +105,10 @@ img{
         font-size:20px;
         margin: 2%;
     }
-    p, #teal,li{
+    p{
         font-size: 15px;
         margin: 2%;
+        float: left;
     }
     
 }
