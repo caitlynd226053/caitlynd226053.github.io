@@ -62,12 +62,14 @@ img{
         height: 100px;
         float: right;
     }
-    #drum,#wall{
+    #drum,#wall,#run{
         float: right;
+        clear: right;
         width:100px;
         height:100px;
         margin-bottom: 25px;
         display: block;
+        
        
     }
     h1,h2,h3,h4{
