@@ -12,6 +12,7 @@ h1,h2,h3,h4{
 }
 *{
     background-color: #E9CE99;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 #home,#contact,#about{
     color: teal;
