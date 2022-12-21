@@ -34,6 +34,13 @@ img{
         float: right;
         margin-right: 0.5%;
     }
+    #drum,#run,#show{
+        float: right;
+        clear: right;
+        width:100px;
+        height:100px;
+        margin-bottom: 25px;
+        display: block;}
     h1,h2,h3,h4{
         font-size: 100px;
     }
