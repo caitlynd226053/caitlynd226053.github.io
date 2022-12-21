@@ -66,6 +66,8 @@ img{
         float: right;
         width:100px;
         height:100px;
+        margin-bottom: 25px;
+        display: block;
        
     }
     h1,h2,h3,h4{
