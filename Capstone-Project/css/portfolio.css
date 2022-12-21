@@ -13,7 +13,7 @@ h1,h2,h3,h4{
 *{
     background-color: #E9CE99;
 }
-#home,#contact,#portfolio{
+#home,#contact,#about{
     color: teal;
     font-weight: bold;
     text-align: center;
@@ -56,7 +56,7 @@ img{
         margin-left:5%;
         margin-right: 5%;
     }
-    #home,#contact,#portfolio{
+    #home,#contact,#about{
         font-size: 50px;
         margin: 10%;
     }
@@ -64,10 +64,6 @@ img{
         font-size: 25px;
         margin: 5%;
         
-    }
-    table{
-        font-size:30px;
-        margin:5px;
     }
 }
 /*Iphone*/
@@ -99,7 +95,7 @@ img{
         font-size: 25px;
     }
 
-    #home, #portfolio, #contact{
+    #home, #about, #contact{
         font-size:20px;
         margin: 2%;
     }
@@ -107,16 +103,5 @@ img{
         font-size: 15px;
         margin: 2%;
     }
-    table{
-        font-size: 15px;
-        margin: 2%;
-    }
+    
 }
-table, td, th { border: 1px solid black; }
-th{ background-color: teal;}
-.rheader { background-color: tan; }
-td {font-weight: 50%}
-body { 
-    margin: center;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;}
