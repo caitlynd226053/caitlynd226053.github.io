@@ -37,8 +37,8 @@ img{
     #drum,#run,#show{
         float: right;
         clear: right;
-        width:500px;
-        height:500px;
+        width:250px;
+        height:250px;
         margin-bottom: 25px;
         display: block;}
     #wall{
