@@ -16,6 +16,8 @@ h1,h2,h3,h4{
 }
 p{
     float:left;
+    margin: 5px;
+
 }
 #home,#contact,#about{
     color: teal;
