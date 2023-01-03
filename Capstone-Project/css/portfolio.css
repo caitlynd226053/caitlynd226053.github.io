@@ -45,8 +45,7 @@ img{
     #clock,#run,#show{
         width:300px;
         height:300px;
-        margin-bottom: 25px;
-        display: block;}
+        }
     #wall{
         height: 400px;
         width: 400px;
@@ -81,7 +80,8 @@ img{
     #clock,#run,#show{
         width:100px;
         height:100px;
-        display: block;
+        margin-right: 5px;
+        margin-left: 5px;
         
        
     }
