@@ -47,6 +47,9 @@ img{
         height:300px;
         margin-right: 5%;
         margin-left: 5%;
+        color: teal;
+        font-weight: bold;
+        text-decoration: none;
         }
     #wall{
         height: 400px;
@@ -84,8 +87,9 @@ img{
         height:100px;
         margin-right: 5px;
         margin-left: 5px;
-        text-align: center;
-        float: center;
+        color: teal;
+        font-weight: bold;
+        text-decoration: none;
         
        
     }
