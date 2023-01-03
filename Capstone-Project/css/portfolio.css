@@ -42,7 +42,7 @@ img{
         border: solid teal 5px;
         border-radius: 20px;
     }
-    #clock,#album,#show{
+    #clock,#album,#schedule{
         width:300px;
         height:300px;
         margin-right: 5%;
@@ -79,7 +79,7 @@ img{
         border: solid teal 2px;
         border-radius: 5px;
     }
-    #clock,#album,#show{
+    #clock,#album,#schedule{
         width:100px;
         height:100px;
         margin-right: 5px;
