@@ -84,6 +84,8 @@ img{
         height:100px;
         margin-right: 5px;
         margin-left: 5px;
+        text-align: center;
+        float: center;
         
        
     }
