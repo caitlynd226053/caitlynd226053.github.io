@@ -97,6 +97,9 @@ img{
         
        
     }
+    .container{
+        margin: 2%;
+    }
     #wall{
         float: right;
         display: block;
