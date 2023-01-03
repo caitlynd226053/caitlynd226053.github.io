@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Album</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body style="background: black;">
+    <script>
+        var gap = 10;
+var cirNum =40;
+var cirSize = 20;
+var angle = 0;
+var ptNum = 100;
+var rectSize = 600;
+
+function setup(){
+  createCanvas(windowWidth, windowHeight);
+  angleMode(DEGREES);
+}
+function draw(){
+  background('black');
+  noCursor();
+  noStroke();
+  fill('white');
+  circle(mouseX, mouseY, 5);
+  
+  push();
+  translate(width/2, height/2);
+  rotate(angle);
+  angle += map(mouseX, 0, width, -0.1, 0.1);
+  noFill();
+  stroke('white');
+  strokeWeight(1);
+  for (var i = 0; i < cirNum;i++){
+    arc(0, 0, cirSize + gap * i, cirSize + gap * i, angle * i, 360 - angle/2);
+    
+  }
+  pop();
+  
+  push();
+  translate(width/2, height-90);
+  noStroke();
+  textFont('Arial');
+  textSize(10);
+  textAlign(CENTER, CENTER);
+  text("Album Title Here", 0, 0);
+  textSize(8);
+  text("This is a demo", 0, 20);
+  pop();
+  
+  push();
+  translate(width/2, height/2);
+  noFill();
+  stroke('white');
+  strokeWeight('2');
+  rectMode(CENTER);
+  rect(0,0, rectSize, rectSize);
+  
+  stroke('white');
+  strokeWeight(1);
+  for (var i = 0; i<ptNum; i++){
+    point(random(-rectSize/2, rectSize/2), random(-rectSize/2, rectSize/2));
+    pop();
+  }
+}
+
+    </script>
+</body>
+</html>
