@@ -51,6 +51,10 @@ img{
         font-weight: bold;
         text-decoration: none;
         }
+        .container{
+            margin: 50%;
+        
+        }
     #wall{
         height: 400px;
         width: 400px;
