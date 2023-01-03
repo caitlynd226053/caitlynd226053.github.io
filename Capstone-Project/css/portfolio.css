@@ -45,6 +45,8 @@ img{
     #clock,#run,#show{
         width:300px;
         height:300px;
+        margin-right: 5%;
+        margin-left: 5%;
         }
     #wall{
         height: 400px;
