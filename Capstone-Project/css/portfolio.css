@@ -29,6 +29,10 @@ p{
     font-weight: bold;
     text-align: center;
 }
+
+#show{
+    margin: 0 auto;
+}
 img{
     opacity: 100;
     top: 0;
