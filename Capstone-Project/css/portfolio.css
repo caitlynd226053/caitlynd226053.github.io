@@ -24,6 +24,11 @@ p{
     font-weight: bold;
     text-align: center;
 }
+#word{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
 img{
     opacity: 100;
     top: 0;
