@@ -30,8 +30,10 @@ p{
     text-align: center;
 }
 
-#show{
+.show{
     margin: 0 auto;
+    display: block;
+    
 }
 img{
     opacity: 100;
