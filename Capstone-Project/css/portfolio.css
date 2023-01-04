@@ -45,8 +45,8 @@ img{
     #clock,#album,#schedule{
         width:200px;
         height:200px;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 2%;
+        margin-left: 2%;
         color: teal;
         font-weight: bold;
         text-decoration: none;
