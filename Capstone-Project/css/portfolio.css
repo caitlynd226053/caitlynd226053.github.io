@@ -42,11 +42,11 @@ img{
         border: solid teal 5px;
         border-radius: 20px;
     }
-    #clock,#album,#schedule{
+    #clock,#album,#schedule,#skeleton,#griffin,#cobain{
         width:200px;
         height:200px;
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 7%;
+        margin-left: 7%;
         color: teal;
         font-weight: bold;
         text-decoration: none;
@@ -87,7 +87,7 @@ img{
         border: solid teal 2px;
         border-radius: 5px;
     }
-    #clock,#album,#schedule{
+    #clock,#album,#schedule,#skeleton,#cobain,#griffin{
         width:100px;
         height:100px;
         margin-right: 5px;
