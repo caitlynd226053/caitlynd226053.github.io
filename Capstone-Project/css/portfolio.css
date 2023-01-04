@@ -36,6 +36,10 @@ p{
     display: block;
     position: absolute;
 }
+#text{
+    color: black;
+    float: right;
+}
 img{
     opacity: 100;
     top: 0;
