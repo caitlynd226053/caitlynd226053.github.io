@@ -68,7 +68,10 @@ img{
         border: solid teal 5px;
         border-radius: 20px;
     }
-
+    h1,h2,h3,h4{
+        text-align: center;
+        color: black;
+    }
 
     .container{
             text-align: center;
