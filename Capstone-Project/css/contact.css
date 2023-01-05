@@ -1,24 +1,48 @@
 hr.new1{
     border: 2px solid teal;
 }
-h1,h2,h3,h4{
-    text-align: center;
-    color: black;
 
-}
-button a{
-    width:200px;
-    height:200px;
-    margin-right: 7%;
-    margin-left: 7%;
-    color: teal;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 25px;
+    h1{color:rgb(201, 21, 81);}
+    #sbutton {
+        color:white;
+        background-color: rgb(250, 90, 77);
+        font-size: 24px;
+        border:2px solid yellow;
+        padding:10px;
+        border-radius: 10px;
+        text-align:center;
+        
     }
-#teal{
-    color: teal;
-    font-weight: bold;
+    input{width:250px;}
+    textarea{width:250px; max-width: 250px;}
+    form{ background-color:rgb(236, 19, 77);}
+    input,textarea{
+        min-width: 250px;
+        max-width: 250px;
+    }
+    #fdiv{
+        background-color:#ccc;
+        border: radius 2px;
+        width: 50%;
+        text-align: center;
+        padding:30px 15px;
+        margin:auto;
+    }
+    .rqd{
+        color:red;
+        font-weight: normal;
+    }
+    #flwupy, #flwupn{background-color: rgb(236, 19, 77) !important; margin-right:-100px; margin-left:-125px;}
+    .flwlbl{font-weight: normal; background-color:rgb(236, 19, 77)!important;}
+    
+    label{ 
+        background-color: rgb(236, 19, 77);
+        font-weight: bold; 
+        }
+    .lbl{
+        background-color:rgb(250, 236, 164);
+    }
+    
 }
 *{
     background-color: #E9CE99;
