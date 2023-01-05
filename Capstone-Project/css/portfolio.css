@@ -68,16 +68,8 @@ img{
         border: solid teal 5px;
         border-radius: 20px;
     }
-    button a{
-        width:200px;
-        height:200px;
-        margin-right: 7%;
-        margin-left: 7%;
-        color: teal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 25px;
-        }
+
+
         .container{
             text-align: center;
         
