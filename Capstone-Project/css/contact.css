@@ -1,0 +1,175 @@
+hr.new1{
+    border: 2px solid teal;
+}
+
+    h1{color:rgb(201, 21, 81);}
+    #sbutton {
+        color:white;
+        background-color: rgb(250, 90, 77);
+        font-size: 24px;
+        border:2px solid yellow;
+        padding:10px;
+        border-radius: 10px;
+        text-align:center;
+        
+    }
+    input{width:250px;}
+    textarea{width:250px; max-width: 250px;}
+    form{ background-color:rgb(236, 19, 77);}
+    input,textarea{
+        min-width: 250px;
+        max-width: 250px;
+    }
+    #fdiv{
+        background-color:#ccc;
+        border: radius 2px;
+        width: 50%;
+        text-align: center;
+        padding:30px 15px;
+        margin:auto;
+    }
+    .rqd{
+        color:red;
+        font-weight: normal;
+    }
+    #flwupy, #flwupn{background-color: rgb(236, 19, 77) !important; margin-right:-100px; margin-left:-125px;}
+    .flwlbl{font-weight: normal; background-color:rgb(236, 19, 77)!important;}
+    
+    label{ 
+        background-color: rgb(236, 19, 77);
+        font-weight: bold; 
+        }
+    .lbl{
+        background-color:rgb(250, 236, 164);
+    }
+    
+}
+*{
+    background-color: #E9CE99;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+p{
+    float:left;
+    margin: 5px;
+
+}
+#home,#contact,#about{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
+#word{
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.show{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+}
+#text{
+    color: black;
+    float: right;
+}
+img{
+    opacity: 100;
+    top: 0;
+    float: right;
+    height:250px;
+    width: 200px;
+    margin-right: 2%;
+}
+/*Computer*/
+@media screen and (min-width: 768px){
+    img{
+        width: 500px;
+        height: 500px;
+        float: right;
+        margin-right: 0.5%;
+        border: solid teal 5px;
+        border-radius: 20px;
+    }
+    button a{
+        width:200px;
+        height:200px;
+        margin-right: 7%;
+        margin-left: 7%;
+        color: teal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 25px;
+        }
+        .container{
+            text-align: center;
+        
+        }
+    #wall{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 15px;
+        display: block;
+    }
+    h1,h2,h3,h4{
+        font-size: 50px;
+    }
+    *{
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    #home,#contact,#about{
+        font-size: 20px;
+        margin: 10%;
+    }
+    p{
+        font-size: 15px;
+        float: left;
+    }
+}
+/*Iphone*/
+@media screen and (max-width: 600px){
+    img{
+        width: 100px;
+        height: 100px;
+        float: right;
+        border: solid teal 2px;
+        border-radius: 5px;
+    }
+    button a{
+        width:100px;
+        height:100px;
+        margin-right: 5px;
+        margin-left: 5px;
+        color: teal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .container{
+        text-align: center;
+    }
+    #wall{
+        float: right;
+        display: block;
+        clear: right;
+        margin-bottom: 5px;
+    }
+    
+    h1,h2,h3,h4{
+        font-size: 25px;
+    }
+
+    #home, #about, #contact{
+        font-size:20px;
+        margin: 2%;
+    }
+    p{
+        font-size: 15px;
+        margin: 2%;
+        float: left;
+    }
+    
+}
+
