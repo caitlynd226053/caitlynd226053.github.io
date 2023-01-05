@@ -70,6 +70,7 @@ img{
     }
     button a{
         text-align: center;
+        float: center;
     }
     .container{
             text-align: center;
