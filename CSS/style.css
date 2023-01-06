@@ -24,9 +24,9 @@ div{
     position: relative;
     border: 1px black;
     height: 25%;
-    margin-left: -32%;
-    display: inline-block;
-
+    float: right;
+    margin: 15em auto;
+    
 }
 img{
     opacity: 100;
