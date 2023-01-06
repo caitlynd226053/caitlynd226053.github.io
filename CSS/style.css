@@ -83,6 +83,10 @@ img{
         position: absolute;
         float: right;
     }
+    #homeImageSlider{
+        float: left;
+        width: 100%;
+    }
     h1{
         font-size: 25px;
     }
