@@ -79,8 +79,8 @@ img{
 /*Iphone*/
 @media screen and (max-width: 600px){
     img{
-        width: 200px;
-        height: 200px;
+        width: 20%;
+        height: 20%;
         float: right;
         margin-left: -50%;
     }
@@ -92,7 +92,7 @@ img{
     }
     #about, #portfolio, #contact{
         font-size:20px;
-        margin-right: 2%;
+        margin-right: 0%;
     }
     ul{
         font-size:20px;
