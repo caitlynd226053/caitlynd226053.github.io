@@ -55,7 +55,9 @@ img{
         width: 500px;
         height: 500px;
         float: left;
-        margin-right: 2%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        margin-left: 4%;
     }
     h1{
         font-size: 100px;
