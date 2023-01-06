@@ -82,7 +82,8 @@ img{
         width: 200px;
         height: 200px;
         float: left;
-        margin-right: 4%;
+        display: block;
+        margin-left: -10%;
     }
     h1{
         font-size: 25px;
