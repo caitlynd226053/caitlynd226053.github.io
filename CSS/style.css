@@ -82,7 +82,8 @@ img{
         width: 20%;
         height: 20%;
         position: absolute;
-        float: right;
+        float: left;
+        display: block;
     }
     }
     h1{
