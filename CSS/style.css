@@ -52,8 +52,8 @@ img{
 /*Computer*/
 @media screen and (min-width: 768px){
     img{
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         float: left;
     }
     h1{
