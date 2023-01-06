@@ -79,8 +79,8 @@ img{
 /*Iphone*/
 @media screen and (max-width: 600px){
     img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         float: left;
     }
     h1{
