@@ -23,8 +23,9 @@ ul{
 div{
     position: relative;
     border: 1px black;
-    height: 0%;
+    height: 25%;
     float: right;
+    margin-right: 32%;
 }
 img{
     opacity: 100;
