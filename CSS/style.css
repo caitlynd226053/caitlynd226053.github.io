@@ -82,7 +82,7 @@ img{
         width: 20%;
         height: 20%;
         float: right;
-        left: -50% !important;
+        left: 0;
     }
     h1{
         font-size: 25px;
