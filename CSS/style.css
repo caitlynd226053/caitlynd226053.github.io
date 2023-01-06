@@ -25,7 +25,6 @@ div{
     border: 1px black;
     height: 25%;
     float: right;
-    margin-right: 32%;
 }
 img{
     opacity: 100;
@@ -83,9 +82,6 @@ img{
         position: absolute;
         float: right;
     }
-    #homeImageSlider{
-        float: left;
-        width: 100%;
     }
     h1{
         font-size: 25px;
@@ -95,7 +91,6 @@ img{
     }
     #about, #portfolio, #contact{
         font-size:20px;
-        margin-right: 0%;
     }
     ul{
         font-size:20px;
