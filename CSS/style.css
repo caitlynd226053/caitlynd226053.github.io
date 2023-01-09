@@ -80,7 +80,7 @@ img{
 /*Iphone*/
 @media screen and (max-width: 480px){
     img{
-        background-image: url(desktop.png);
+        background-image: url(mobile.png);
         background-repeat: no-repeat;
         background-size: contain;
 
