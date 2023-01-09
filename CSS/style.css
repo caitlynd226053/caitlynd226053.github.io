@@ -83,7 +83,7 @@ img{
         background-image: url(mobile.png);
         background-repeat: no-repeat;
         background-size: contain;
-
+        float: right;
     }
     
     h1{
@@ -94,6 +94,7 @@ img{
     }
     #about, #portfolio, #contact{
         font-size:20px;
+        float: left;
     }
     ul{
         font-size:20px;
