@@ -80,10 +80,9 @@ img{
 /*Iphone*/
 @media screen and (max-width: 600px){
     img{
-        width: 20%;
-        height: 20%;
-        float: left;
-        display: block;
+        background-image: url(desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain 
     }
     
     h1{
