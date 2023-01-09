@@ -53,7 +53,7 @@ img{
 }
 /*Computer*/
 @media screen and (min-width: 768px){
-    img{
+    img {
         width: 500px;
         height: 500px;
         float: left;
@@ -84,6 +84,7 @@ img{
         background-repeat: no-repeat;
         background-size: contain;
         float: right;
+    
     }
     
     h1{
