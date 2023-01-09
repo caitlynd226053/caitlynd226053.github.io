@@ -84,7 +84,8 @@ img{
         background-repeat: no-repeat;
         background-size: contain;
         float: right;
-    
+        height: 50px;
+        width: 50px;
     }
     
     h1{
