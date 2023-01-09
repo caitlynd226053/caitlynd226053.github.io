@@ -78,11 +78,12 @@ img{
     }
 }
 /*Iphone*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
     img{
         background-image: url(desktop.png);
         background-repeat: no-repeat;
-        background-size: contain 
+        background-size: contain;
+
     }
     
     h1{
