@@ -30,7 +30,6 @@ div{
 }
 img{
     opacity: 100;
-   /*override in mobile using !important*/
     position: absolute;
     top: 0;
     left: 0;
