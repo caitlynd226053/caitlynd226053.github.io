@@ -22,7 +22,10 @@
                 if(this.readyState == 4 && this.status == 200)
                 {document.getElementById("demo").innerHTML = this.responseText;
             }
-            }
+    
+            };
+            xhhtp.open("Get", "ajax.txt", true);
+            xhhtp.send();
         }
     </script>
 </body>
