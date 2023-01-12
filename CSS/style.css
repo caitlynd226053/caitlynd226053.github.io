@@ -71,16 +71,16 @@ img{
     }
    
     h1,h2{
-        font-size: 400px;
+        font-size: 500%;
     }
     #welcome{
         font-size: 100px;
     }
     #about, #portfolio, #contact{
-        font-size: 75px;
+        font-size: 200px;
     }
     li{
-        font-size:100%;
+        font-size:200px;
     }
     *{
         margin-left:5%;
