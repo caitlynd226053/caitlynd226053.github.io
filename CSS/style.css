@@ -8,6 +8,7 @@ h1,h2{
 }
 li{
     font-size: 50%;
+    color: teal;
 }
 #welcome{
     text-align: center;
