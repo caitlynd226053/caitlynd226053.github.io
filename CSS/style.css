@@ -4,7 +4,7 @@ hr.new1{
 h1,h2{
     text-align: center;
     color: black;
-    font-size: 70%;
+    font-size: 100%;
 }
 li{
     font-size: 50%;
@@ -70,7 +70,7 @@ img{
         margin-bottom: 10%;
     }
    
-    h1{
+    h1,h2{
         font-size: 100px;
     }
     #welcome{
