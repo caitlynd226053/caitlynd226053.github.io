@@ -72,7 +72,7 @@ img{
     #about, #portfolio, #contact{
         font-size: 75px;
     }
-    ul{
+    ul,ol{
         font-size:100px;
     }
     *{
