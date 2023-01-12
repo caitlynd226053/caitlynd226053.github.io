@@ -8,6 +8,7 @@ h1,h2{
 }
 li{
     color: teal;
+    font-size: 50px;
 }
 #social{
     color: teal;
@@ -70,7 +71,7 @@ img{
     }
    
     h1,h2{
-        font-size: 100px;
+        font-size: 100%;
     }
     #welcome{
         font-size: 50px;
