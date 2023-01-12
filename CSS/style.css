@@ -69,13 +69,7 @@ img{
         margin-right: 4%;
         margin-bottom: 10%;
     }
-    #int{
-        width:500px;
-        height:500px;
-        float: right;
-        margin-right: 4%;
-        margin-bottom: 10%;
-    }
+   
     h1{
         font-size: 100px;
     }
@@ -103,10 +97,7 @@ img{
         height: 125px;
         width: 125px;
     }
-    #int{
-        height: 125px;
-        width: 125px;
-        float: right;
+
     }
     li{
         font-size: 105%;
