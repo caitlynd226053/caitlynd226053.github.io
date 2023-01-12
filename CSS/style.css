@@ -10,6 +10,11 @@ li{
     font-size: 50%;
     color: teal;
 }
+#social{
+    color: teal;
+    text-decoration: none;
+    
+}
 #welcome{
     text-align: center;
     
