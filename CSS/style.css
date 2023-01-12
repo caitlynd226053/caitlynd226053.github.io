@@ -4,7 +4,8 @@ hr.new1{
 h1,h2{
     text-align: center;
     color: black;
-    font-size: 60px; !important
+    font-size: 60px; 
+/*use vw or viewport to fix headings and text*/
 }
 li{
     color: teal;
