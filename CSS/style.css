@@ -91,7 +91,7 @@ img{
         width: 125px;
     }
     li{
-        font-size: 50%;
+        font-size: 105%;
     }
     h1,h2{
         font-size: 25px;
@@ -103,8 +103,6 @@ img{
         font-size:105%;
         float: left;
     }
-    ul{
-        font-size:20px;
-    }
+   
     
 }
