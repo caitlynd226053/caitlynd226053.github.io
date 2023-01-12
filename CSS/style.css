@@ -100,7 +100,7 @@ img{
         font-size: 15px;
     }
     #about, #portfolio, #contact{
-        font-size:20px;
+        font-size:20%;
         float: left;
     }
     ul{
