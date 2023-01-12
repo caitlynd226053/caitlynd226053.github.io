@@ -17,7 +17,7 @@ li{
 }
 #welcome{
     text-align: center;
-    
+    font-size: 15px;
 }
 #about,#portfolio, #contact{
     color: teal;
@@ -74,7 +74,7 @@ img{
         font-size: 35px;
     }
     #welcome{
-        font-size: 100px;
+        font-size: 15px;
     }
     #about, #portfolio, #contact{
         font-size: 200px;
