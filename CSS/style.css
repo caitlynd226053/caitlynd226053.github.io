@@ -1,9 +1,10 @@
 hr.new1{
     border: 2px solid teal;
 }
-h1{
+h1,h2{
     text-align: center;
     color: black;
+    font-size: 20%;
 }
 #welcome{
     text-align: center;
