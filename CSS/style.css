@@ -71,10 +71,10 @@ img{
     }
    
     h1,h2{
-        font-size: 400%;
+        font-size: 400px;
     }
     #welcome{
-        font-size: 50px;
+        font-size: 100px;
     }
     #about, #portfolio, #contact{
         font-size: 75px;
