@@ -72,7 +72,7 @@ img{
     #int{
         width:500px;
         height:500px;
-        float: left;
+        float: right;
         margin-right: 4%;
         margin-bottom: 10%;
     }
@@ -102,6 +102,9 @@ img{
         float: right;
         height: 125px;
         width: 125px;
+    }
+    #int{
+
     }
     li{
         font-size: 105%;
