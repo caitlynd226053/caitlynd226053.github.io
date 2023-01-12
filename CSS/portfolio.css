@@ -1,12 +1,10 @@
 hr.new1{
     border: 2px solid teal;
 }
-h1,h2{
+h1,h2,h3,h4{
     text-align: center;
     color: black;
     float: clear;
-    font-size: 20%;
-    
 }
 #grif{
     margin-left: 25%;
@@ -102,10 +100,7 @@ img{
     #griffin{
         text-align: center;
     }
-    li{
-        font-size:10%;
     }
-    
     #music{
         margin-top: 0%;
         margin-bottom: 5%;
