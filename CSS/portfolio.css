@@ -1,10 +1,12 @@
 hr.new1{
     border: 2px solid teal;
 }
-h1,h2,h3,h4{
+h1,h2{
     text-align: center;
     color: black;
     float: clear;
+    font-size: 20%;
+    
 }
 #grif{
     margin-left: 25%;
@@ -103,9 +105,7 @@ img{
     li{
         font-size:10%;
     }
-    h2{
-        font-size: 20%;
-    }
+    
     #music{
         margin-top: 0%;
         margin-bottom: 5%;
