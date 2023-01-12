@@ -104,7 +104,9 @@ img{
         width: 125px;
     }
     #int{
-
+        height: 125px;
+        width: 125px;
+        float: right;
     }
     li{
         font-size: 105%;
