@@ -71,7 +71,7 @@ img{
     }
    
     h1,h2{
-        font-size: 200%;
+        font-size: 400%;
     }
     #welcome{
         font-size: 50px;
@@ -80,7 +80,7 @@ img{
         font-size: 75px;
     }
     li{
-        font-size:200px;
+        font-size:100%;
     }
     *{
         margin-left:5%;
