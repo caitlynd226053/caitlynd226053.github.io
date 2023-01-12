@@ -91,9 +91,9 @@ img{
         width: 125px;
     }
     li{
-        font-size: 10%;
+        font-size: 50%;
     }
-    h1{
+    h1,h2{
         font-size: 25px;
     }
     #welcome{
