@@ -90,7 +90,9 @@ img{
         height: 125px;
         width: 125px;
     }
-    
+    li{
+        font-size: 10%;
+    }
     h1{
         font-size: 25px;
     }
