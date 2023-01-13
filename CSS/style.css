@@ -108,6 +108,7 @@ img{
     #about, #portfolio, #contact{
         font-size:105%;
         float: left;
+        font-size: 1vh !important;
     }
    
     
