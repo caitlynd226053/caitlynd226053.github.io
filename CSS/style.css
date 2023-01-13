@@ -100,7 +100,7 @@ img{
         font-size: 105%;
     }
     h1,h2{
-        font-size: 25px;
+        font-size: 5vh !important;
     }
     #welcome{
         font-size: 15px;
