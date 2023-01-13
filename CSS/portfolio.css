@@ -37,6 +37,7 @@ p{
     color: teal;
     font-weight: bold;
     text-align: center;
+    font-size: 2vh;
 }
 #word{
     color: teal;
@@ -120,14 +121,13 @@ img{
         margin-right: 5%;
     }
     #home,#contact,#about{
-        font-size: 45px;
+        font-size: 30px;
         margin: 10%;
     }
     p{
         font-size: 30px;
         text-align: center;
     }
-}
 /*Iphone*/
 @media screen and (max-width: 600px){
     img{
