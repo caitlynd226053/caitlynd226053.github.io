@@ -33,6 +33,7 @@ p{
     margin: 5px;
 
 }
+table, td, th { border: 1px solid black; }
 #home,#contact,#about{
     color: teal;
     font-weight: bold;
