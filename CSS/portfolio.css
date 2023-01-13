@@ -90,25 +90,12 @@ img{
             text-align: center !important;
         
         }
-        #skel, #cob{
-            margin-left: 25%;
-            margin-right: 25%;
-            margin-bottom: 2%;
-        }
-        #grif{
-            margin-bottom: 0.25%;
-        }
+        
     #wall{
         height: 400px;
         width: 400px;
         margin-bottom: 15px;
         display: block;
-    }
-    #album,#clock,#cobain,#griffin,#schedule,#skeleton{
-        font-size: 25px; 
-    }
-    #griffin{
-        text-align: center;
     }
     }
     #music{
@@ -118,6 +105,7 @@ img{
         width: 400px;
         text-decoration: none;
         border: none;
+        text-align: center;
     }
     h1,h2,h3,h4{
         font-size: 40px;
