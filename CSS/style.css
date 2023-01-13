@@ -4,7 +4,7 @@ hr.new1{
 h1,h2{
     text-align: center;
     color: black;
-    font-size: 60px; 
+    font-size: 5vh; 
 /*use vw or viewport to fix headings and text*/
 }
 li{
@@ -114,4 +114,4 @@ img{
     }
    
     
-}
+
