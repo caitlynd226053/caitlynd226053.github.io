@@ -22,7 +22,7 @@ li{
 #about,#portfolio, #contact{
     color: teal;
     font-weight: bold;
-    font-size: 2.5vh !important;
+    font-size: 2vh !important;
 }
 ul{
     color: teal;
