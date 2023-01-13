@@ -34,6 +34,7 @@ p{
 
 }
 table, td, th { border: 1px solid black;
+    text-align: center;
 font-size: 2vh; }
 #hypno{
     height: 2vh;
