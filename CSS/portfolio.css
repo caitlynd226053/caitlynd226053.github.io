@@ -35,6 +35,10 @@ p{
 }
 table, td, th { border: 1px solid black;
 font-size: 2vh; }
+#hypno{
+    height: 2vh;
+    width: 2vh;
+}
 #home,#contact,#about{
     color: teal;
     font-weight: bold;
