@@ -13,7 +13,7 @@ li{
 }
 #social{
     color: teal;
-    font-size:4vh !important;
+    font-size:3vh !important;
 }
 #welcome{
     text-align: center;
@@ -22,7 +22,7 @@ li{
 #about,#portfolio, #contact{
     color: teal;
     font-weight: bold;
-    font-size: 4vh !important;
+    font-size: 3vh !important;
 }
 ul{
     color: teal;
