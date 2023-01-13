@@ -87,7 +87,7 @@ img{
         float: center;
     }
     .container{
-            text-align: center;
+            text-align: center !important;
         
         }
         #skel, #cob{
