@@ -26,6 +26,7 @@ button a{
 }
 td a{
     margin: 1%;
+    font-size: 1vh;
 }
 *{
     background-color: #E9CE99;
