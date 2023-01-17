@@ -98,6 +98,10 @@ img{
         text-align: center;
         float: center;
     }
+    td img{
+        height: 500px;
+        width:500px;
+    }
     .container{
             text-align: center !important;
         
