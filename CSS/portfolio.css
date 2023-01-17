@@ -82,7 +82,7 @@ img{
         float: right;
         margin-right: 0.5%;
         border: solid black 5px;
-        border-radius: 20px;
+        border-radius: 5px;
     }
     button a{
         text-align: center;
