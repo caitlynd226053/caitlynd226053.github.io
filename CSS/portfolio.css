@@ -35,7 +35,7 @@ p{
 }
 table, td, th { border: 1px solid black;
     text-align: center;
-font-size: 4vh;
+font-size: 2vh;
 color: teal; }
 table{
     margin: 0 auto !important;
