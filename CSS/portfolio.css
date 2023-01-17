@@ -36,8 +36,6 @@ p{
 table, td, th { border: 1px solid black;
     text-align: center;
 font-size: 4vh;
-height: 50px;
-width: 100px;
 color: teal; }
 table{
     margin: 0 auto !important;
@@ -131,6 +129,10 @@ img{
     p{
         font-size: 30px;
         text-align: center;
+    }
+    table,td,th,{
+        height: 50px;
+        width: 100px;
     }
 /*Iphone*/
 @media screen and (max-width: 600px){
