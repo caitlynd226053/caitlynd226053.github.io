@@ -24,6 +24,9 @@ button a{
     color: teal;
     font-weight: bold;
 }
+td a{
+    margin: 1%;
+}
 *{
     background-color: #E9CE99;
     font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
