@@ -73,9 +73,8 @@ img{
         font-size: 15px;
     }
     #about, #portfolio, #contact{
-        font-size:100%;
-        float: left;
-        font-size: 2vh;
+        margin: 10%;
+        font-size: 30px;
         
     }
     li{
