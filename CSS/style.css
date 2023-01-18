@@ -1,11 +1,16 @@
 hr.new1{
     border: 2px solid teal;
 }
-h1,h2{
+h1{
     text-align: center;
     color: black; 
     font-size: 5vh !important;
 /*use vw or viewport to fix headings and text*/
+}
+h2{
+    float: left;
+    color: black;
+    font-size: 5vh !important;
 }
 li{
     color: teal;
@@ -13,7 +18,6 @@ li{
 #social{
     color: teal;
     font-size:2vh !important;
-    float: left;
 }
 #welcome{
     text-align: center;
