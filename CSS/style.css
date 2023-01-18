@@ -107,11 +107,7 @@ img{
     #welcome{
         font-size: 15px;
     }
-    #about, #portfolio, #contact{
-        font-size:105%;
-        float: left;
-        font-size: 1.5vh;
-    }
+    
    
     
 
