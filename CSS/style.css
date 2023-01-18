@@ -95,6 +95,9 @@ img{
         height: 125px;
         width: 125px;
     }
+    #about, #portfolio, #contact{
+        margin: 2%;
+        font-size: 20px;
 
     }
     li{
@@ -106,6 +109,7 @@ img{
     #welcome{
         font-size: 15px;
     }
+
     
    
     
