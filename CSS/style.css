@@ -46,7 +46,12 @@ div{
 }
 #media{
     float: left;
+    width: 50%;
 }
+#media ol{
+    display: block;
+}
+
 img{
     opacity: 100;
     position: absolute;
