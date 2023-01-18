@@ -13,6 +13,7 @@ li{
 #social{
     color: teal;
     font-size:2vh !important;
+    float: left;
 }
 #welcome{
     text-align: center;
