@@ -44,6 +44,9 @@ div{
     margin-right: 32%;
     
 }
+#media{
+    float: left;
+}
 img{
     opacity: 100;
     position: absolute;
@@ -113,7 +116,6 @@ img{
         font-size: 15px;
     }
     #social{
-        float: left;
         font-size: 2vh !important;
     }
 
