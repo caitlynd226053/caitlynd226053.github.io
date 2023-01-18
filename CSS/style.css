@@ -115,6 +115,10 @@ img{
     #welcome{
         font-size: 15px;
     }
+    #social{
+        float: left;
+        margin: 2%;
+    }
 
     
    
